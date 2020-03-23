@@ -1,0 +1,3140 @@
+%%% ====================================================================
+%%%  BibTeX-file{
+%%%     author          = "Gerry Murray",
+%%%     version         = "1.2",
+%%%     date            = "2 April 2012",
+%%%     filename        = "acmsmall-sample-bibfile.bib",
+%%%     address         = "ACM, NY",
+%%%     email           = "murray at hq.acm.org",
+%%%     codetable       = "ISO/ASCII",
+%%%     keywords        = "ACM Reference Format, bibliography, citation, references",
+%%%     supported       = "yes",
+%%%     docstring       = "This BibTeX database file contains 'bibdata' entries
+%%%                        that 'match' the examples provided in the Specifications Document
+%%%                        AND, also, 'legacy'-type bibs. It should assist authors in
+%%%                        choosing the 'correct' at-bibtype and necessary bib-fields
+%%%                        so as to obtain the appropriate ACM Reference Format output.
+%%%                        It also contains many 'Standard Abbreviations'. "
+%%%  }
+%%% ====================================================================
+
+% Journals
+
+% First the Full Name is given, then the abbreviation used in the AMS Math
+% Reviews, with an indication if it could not be found there.
+% Note the 2nd overwrites the 1st, so swap them if you want the full name.
+
+ %{AMS}
+ @String{AMSTrans = "American Mathematical Society Translations" }
+ @String{AMSTrans = "Amer. Math. Soc. Transl." }
+ @String{BullAMS = "Bulletin of the American Mathematical Society" }
+ @String{BullAMS = "Bull. Amer. Math. Soc." }
+ @String{ProcAMS = "Proceedings of the American Mathematical Society" }
+ @String{ProcAMS = "Proc. Amer. Math. Soc." }
+ @String{TransAMS = "Transactions of the American Mathematical Society" }
+ @String{TransAMS = "Trans. Amer. Math. Soc." }
+
+ %ACM
+ @String{CACM = "Communications of the {ACM}" }
+ @String{CACM = "Commun. {ACM}" }
+ @String{CompServ = "Comput. Surveys" }
+ @String{JACM = "J. ACM" }
+ @String{ACMMathSoft = "{ACM} Transactions on Mathematical Software" }
+ @String{ACMMathSoft = "{ACM} Trans. Math. Software" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newsletter" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newslett." }
+
+ @String{AmerSocio = "American Journal of Sociology" }
+ @String{AmerStatAssoc = "Journal of the American Statistical Association" }
+ @String{AmerStatAssoc = "J. Amer. Statist. Assoc." }
+ @String{ApplMathComp = "Applied Mathematics and Computation" }
+ @String{ApplMathComp = "Appl. Math. Comput." }
+ @String{AmerMathMonthly = "American Mathematical Monthly" }
+ @String{AmerMathMonthly = "Amer. Math. Monthly" }
+ @String{BIT = "{BIT}" }
+ @String{BritStatPsych = "British Journal of Mathematical and Statistical
+          Psychology" }
+ @String{BritStatPsych = "Brit. J. Math. Statist. Psych." }
+ @String{CanMathBull = "Canadian Mathematical Bulletin" }
+ @String{CanMathBull = "Canad. Math. Bull." }
+ @String{CompApplMath = "Journal of Computational and Applied Mathematics" }
+ @String{CompApplMath = "J. Comput. Appl. Math." }
+ @String{CompPhys = "Journal of Computational Physics" }
+ @String{CompPhys = "J. Comput. Phys." }
+ @String{CompStruct = "Computers and Structures" }
+ @String{CompStruct = "Comput. \& Structures" }
+ @String{CompJour = "The Computer Journal" }
+ @String{CompJour = "Comput. J." }
+ @String{CompSysSci = "Journal of Computer and System Sciences" }
+ @String{CompSysSci = "J. Comput. System Sci." }
+ @String{Computing = "Computing" }
+ @String{ContempMath = "Contemporary Mathematics" }
+ @String{ContempMath = "Contemp. Math." }
+ @String{Crelle = "Crelle's Journal" }
+ @String{GiornaleMath = "Giornale di Mathematiche" }
+ @String{GiornaleMath = "Giorn. Mat." } % didn't find in AMS MR., ibid.
+
+ %IEEE
+ @String{Computer = "{IEEE} Computer" }
+ @String{IEEETransComp = "{IEEE} Transactions on Computers" }
+ @String{IEEETransComp = "{IEEE} Trans. Comput." }
+ @String{IEEETransAC = "{IEEE} Transactions on Automatic Control" }
+ @String{IEEETransAC = "{IEEE} Trans. Automat. Control" }
+ @String{IEEESpec = "{IEEE} Spectrum" } % didn't find in AMS MR
+ @String{ProcIEEE = "Proceedings of the {IEEE}" }
+ @String{ProcIEEE = "Proc. {IEEE}" } % didn't find in AMS MR
+ @String{IEEETransAeroElec = "{IEEE} Transactions on Aerospace and Electronic
+     Systems" }
+ @String{IEEETransAeroElec = "{IEEE} Trans. Aerospace Electron. Systems" }
+
+ @String{IMANumerAna = "{IMA} Journal of Numerical Analysis" }
+ @String{IMANumerAna = "{IMA} J. Numer. Anal." }
+ @String{InfProcLet = "Information Processing Letters" }
+ @String{InfProcLet = "Inform. Process. Lett." }
+ @String{InstMathApp = "Journal of the Institute of Mathematics and
+     its Applications" }
+ @String{InstMathApp = "J. Inst. Math. Appl." }
+ @String{IntControl = "International Journal of Control" }
+ @String{IntControl = "Internat. J. Control" }
+ @String{IntNumerEng = "International Journal for Numerical Methods in
+     Engineering" }
+ @String{IntNumerEng = "Internat. J. Numer. Methods Engrg." }
+ @String{IntSuper = "International Journal of Supercomputing Applications" }
+ @String{IntSuper = "Internat. J. Supercomputing Applic." } % didn't find
+%% in AMS MR
+ @String{Kibernetika = "Kibernetika" }
+ @String{JResNatBurStand = "Journal of Research of the National Bureau
+     of Standards" }
+ @String{JResNatBurStand = "J. Res. Nat. Bur. Standards" }
+ @String{LinAlgApp = "Linear Algebra and its Applications" }
+ @String{LinAlgApp = "Linear Algebra Appl." }
+ @String{MathAnaAppl = "Journal of Mathematical Analysis and Applications" }
+ @String{MathAnaAppl = "J. Math. Anal. Appl." }
+ @String{MathAnnalen = "Mathematische Annalen" }
+ @String{MathAnnalen = "Math. Ann." }
+ @String{MathPhys = "Journal of Mathematical Physics" }
+ @String{MathPhys = "J. Math. Phys." }
+ @String{MathComp = "Mathematics of Computation" }
+ @String{MathComp = "Math. Comp." }
+ @String{MathScand = "Mathematica Scandinavica" }
+ @String{MathScand = "Math. Scand." }
+ @String{TablesAidsComp = "Mathematical Tables and Other Aids to Computation" }
+ @String{TablesAidsComp = "Math. Tables Aids Comput." }
+ @String{NumerMath = "Numerische Mathematik" }
+ @String{NumerMath = "Numer. Math." }
+ @String{PacificMath = "Pacific Journal of Mathematics" }
+ @String{PacificMath = "Pacific J. Math." }
+ @String{ParDistComp = "Journal of Parallel and Distributed Computing" }
+ @String{ParDistComp = "J. Parallel and Distrib. Comput." } % didn't find
+%% in AMS MR
+ @String{ParComputing = "Parallel Computing" }
+ @String{ParComputing = "Parallel Comput." }
+ @String{PhilMag = "Philosophical Magazine" }
+ @String{PhilMag = "Philos. Mag." }
+ @String{ProcNAS = "Proceedings of the National Academy of Sciences
+                    of the USA" }
+ @String{ProcNAS = "Proc. Nat. Acad. Sci. U. S. A." }
+ @String{Psychometrika = "Psychometrika" }
+ @String{QuartMath = "Quarterly Journal of Mathematics, Oxford, Series (2)" }
+ @String{QuartMath = "Quart. J. Math. Oxford Ser. (2)" }
+ @String{QuartApplMath = "Quarterly of Applied Mathematics" }
+ @String{QuartApplMath = "Quart. Appl. Math." }
+ @String{RevueInstStat = "Review of the International Statisical Institute" }
+ @String{RevueInstStat = "Rev. Inst. Internat. Statist." }
+
+ %SIAM
+ @String{JSIAM = "Journal of the Society for Industrial and Applied
+     Mathematics" }
+ @String{JSIAM = "J. Soc. Indust. Appl. Math." }
+ @String{JSIAMB = "Journal of the Society for Industrial and Applied
+     Mathematics, Series B, Numerical Analysis" }
+ @String{JSIAMB = "J. Soc. Indust. Appl. Math. Ser. B Numer. Anal." }
+ @String{SIAMAlgMeth = "{SIAM} Journal on Algebraic and Discrete Methods" }
+ @String{SIAMAlgMeth = "{SIAM} J. Algebraic Discrete Methods" }
+ @String{SIAMAppMath = "{SIAM} Journal on Applied Mathematics" }
+ @String{SIAMAppMath = "{SIAM} J. Appl. Math." }
+ @String{SIAMComp = "{SIAM} Journal on Computing" }
+ @String{SIAMComp = "{SIAM} J. Comput." }
+ @String{SIAMMatrix = "{SIAM} Journal on Matrix Analysis and Applications" }
+ @String{SIAMMatrix = "{SIAM} J. Matrix Anal. Appl." }
+ @String{SIAMNumAnal = "{SIAM} Journal on Numerical Analysis" }
+ @String{SIAMNumAnal = "{SIAM} J. Numer. Anal." }
+ @String{SIAMReview = "{SIAM} Review" }
+ @String{SIAMReview = "{SIAM} Rev." }
+ @String{SIAMSciStat = "{SIAM} Journal on Scientific and Statistical
+     Computing" }
+ @String{SIAMSciStat = "{SIAM} J. Sci. Statist. Comput." }
+
+ @String{SoftPracExp = "Software Practice and Experience" }
+ @String{SoftPracExp = "Software Prac. Experience" } % didn't find in AMS MR
+ @String{StatScience = "Statistical Science" }
+ @String{StatScience = "Statist. Sci." }
+ @String{Techno = "Technometrics" }
+ @String{USSRCompMathPhys = "{USSR} Computational Mathematics and Mathematical
+     Physics" }
+ @String{USSRCompMathPhys = "{U. S. S. R.} Comput. Math. and Math. Phys." }
+ @String{VLSICompSys = "Journal of {VLSI} and Computer Systems" }
+ @String{VLSICompSys = "J. {VLSI} Comput. Syst." }
+ @String{ZAngewMathMech = "Zeitschrift fur Angewandte Mathematik und
+     Mechanik" }
+ @String{ZAngewMathMech = "Z. Angew. Math. Mech." }
+ @String{ZAngewMathPhys = "Zeitschrift fur Angewandte Mathematik und Physik" }
+ @String{ZAngewMathPhys = "Z. Angew. Math. Phys." }
+
+% Publishers % ================================================= |
+
+ @String{Academic = "Academic Press" }
+ @String{ACMPress = "{ACM} Press" }
+ @String{AdamHilger = "Adam Hilger" }
+ @String{AddisonWesley = "Addison-Wesley" }
+ @String{AllynBacon = "Allyn and Bacon" }
+ @String{AMS = "American Mathematical Society" }
+ @String{Birkhauser = "Birkha{\"u}ser" }
+ @String{CambridgePress = "Cambridge University Press" }
+ @String{Chelsea = "Chelsea" }
+ @String{ClaredonPress = "Claredon Press" }
+ @String{DoverPub = "Dover Publications" }
+ @String{Eyolles = "Eyolles" }
+ @String{HoltRinehartWinston = "Holt, Rinehart and Winston" }
+ @String{Interscience = "Interscience" }
+ @String{JohnsHopkinsPress = "The Johns Hopkins University Press" }
+ @String{JohnWileySons = "John Wiley and Sons" }
+ @String{Macmillan = "Macmillan" }
+ @String{MathWorks = "The Math Works Inc." }
+ @String{McGrawHill = "McGraw-Hill" }
+ @String{NatBurStd = "National Bureau of Standards" }
+ @String{NorthHolland = "North-Holland" }
+ @String{OxfordPress = "Oxford University Press" }  %address Oxford or London?
+ @String{PergamonPress = "Pergamon Press" }
+ @String{PlenumPress = "Plenum Press" }
+ @String{PrenticeHall = "Prentice-Hall" }
+ @String{SIAMPub = "{SIAM} Publications" }
+ @String{Springer = "Springer-Verlag" }
+ @String{TexasPress = "University of Texas Press" }
+ @String{VanNostrand = "Van Nostrand" }
+ @String{WHFreeman = "W. H. Freeman and Co." }
+ 
+ @book{collins2016act,
+  title={The Act of Musical Composition: Studies in the creative process},
+  author={Collins, Dave},
+  year={2016},
+  publisher={Routledge}
+}
+
+@article{gartland2003suitability,
+  title={The suitability of genetic algorithms for musical composition},
+  author={Gartland-Jones, Andrew and Copley, Peter},
+  journal={Contemporary Music Review},
+  volume={22},
+  number={3},
+  pages={43--55},
+  year={2003},
+  publisher={Taylor \& Francis}
+}
+
+@inproceedings{mo2005smartcanvas,
+ author = {Mo, Zhenyao and Lewis, J. P. and Neumann, Ulrich},
+ title = {SmartCanvas: A Gesture-driven Intelligent Drawing Desk System},
+ booktitle = {Proceedings of the 10th International Conference on Intelligent User Interfaces},
+ series = {IUI '05},
+ year = {2005},
+ isbn = {1-58113-894-6},
+ location = {San Diego, California, USA},
+ pages = {239--243},
+ numpages = {5},
+ url = {http://doi.acm.org/10.1145/1040830.1040881},
+ doi = {10.1145/1040830.1040881},
+ acmid = {1040881},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {gesture recognition, intelligent user interface, support vector machine},
+} 
+
+@misc{alistair2001writing,
+  title={Writing effective use cases},
+  author={Alistair, Cockburn},
+  year={2001},
+  publisher={Addison-Wesley Reading}
+}
+
+@article{camurri2000eyesweb,
+  title={Eyesweb: Toward gesture and affect recognition in interactive dance and music systems},
+  author={Camurri, Antonio and Hashimoto, Shuji and Ricchetti, Matteo and Ricci, Andrea and Suzuki, Kenji and Trocca, Riccardo and Volpe, Gualtiero},
+  journal={Computer Music Journal},
+  volume={24},
+  number={1},
+  pages={57--69},
+  year={2000},
+  publisher={MIT Press}
+}
+
+@inproceedings{mackenzie1991a,
+ author = {MacKenzie, I. Scott and Sellen, Abigail and Buxton, William A. S.},
+ title = {A Comparison of Input Devices in Element Pointing and Dragging Tasks},
+ booktitle = {Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
+ series = {CHI '91},
+ year = {1991},
+ location = {New Orleans, Louisiana, USA},
+
+ publisher = {ACM},
+ address = {New York, NY, USA},
+} 
+
+@book{commoner2014closing,
+  title={The closing circle: nature, man, and technology},
+  author={Commoner, Barry},
+  year={2014},
+  publisher={Knopf}
+}
+
+@inproceedings{hristidis2003efficient,
+  title={Efficient IR-style keyword search over relational databases},
+  author={Hristidis, Vagelis and Gravano, Luis and Papakonstantinou, Yannis},
+  booktitle={Proceedings of the 29th international conference on Very large data bases-Volume 29},
+  pages={850--861},
+  year={2003},
+  organization={VLDB Endowment}
+}
+
+@article{clough1986musical,
+  title={Musical scales and the generalized circle of fifths},
+  author={Clough, John and Myerson, Gerald},
+  journal={The american mathematical monthly},
+  volume={93},
+  number={9},
+  pages={695--701},
+  year={1986},
+  publisher={JSTOR}
+}
+
+@article{davis2004toward,
+  title={Toward preprototype user acceptance testing of new information systems: implications for software project management},
+  author={Davis, Fred D and Venkatesh, Viswanath},
+  journal={IEEE Transactions on Engineering management},
+  volume={51},
+  number={1},
+  pages={31--46},
+  year={2004},
+  publisher={IEEE}
+}
+
+@book{tidwell2010designing,
+  title={Designing interfaces: Patterns for effective interaction design},
+  author={Tidwell, Jenifer},
+  year={2010},
+  publisher={" O'Reilly Media, Inc."}
+}
+
+@inproceedings{frokjaer2000measuring,
+  title={Measuring usability: are effectiveness, efficiency, and satisfaction really correlated?},
+  author={Fr{\o}kj{\ae}r, Erik and Hertzum, Morten and Hornb{\ae}k, Kasper},
+  booktitle={Proceedings of the SIGCHI conference on Human Factors in Computing Systems},
+  pages={345--352},
+  year={2000},
+  organization={ACM}
+}
+
+
+@article{fischer2001user,
+  title={User modeling in human--computer interaction},
+  author={Fischer, Gerhard},
+  journal={User modeling and user-adapted interaction},
+  volume={11},
+  number={1},
+  pages={65--86},
+  year={2001},
+  publisher={Springer}
+}
+
+@inproceedings{sinha2010human,
+  title={Human computer interaction},
+  author={Sinha, Gaurav and Shahi, Rahul and Shankar, Mani},
+  booktitle={Emerging Trends in Engineering and Technology (ICETET), 2010 3rd International Conference on},
+  pages={1--4},
+  year={2010},
+  organization={IEEE}
+}
+
+@book{rogers2011interaction,
+  title={Interaction design: beyond human-computer interaction},
+  author={Rogers, Yvonne and Sharp, Helen and Preece, Jenny},
+  year={2011},
+  publisher={John Wiley \& Sons}
+}
+
+@book{baecker1987human,
+  title={Human-computer interaction: a multidisciplinary approach},
+  author={Baecker, Ronald M and Buxton, William AS},
+  year={1987},
+  publisher={Morgan Kaufmann Publishers Inc.}
+}
+
+@article{shackel1959ergonomics,
+  title={Ergonomics for a computer},
+  author={Shackel, Brian},
+  journal={Design},
+  volume={120},
+  pages={36--39},
+  year={1959}
+}
+
+@article{engelbart1962augmenting,
+  title={Augmenting human intellect: a conceptual framework},
+  author={Engelbart, Douglas C},
+  journal={PACKER, Randall and JORDAN, Ken. Multimedia. From Wagner to Virtual Reality. New York: WW Norton \& Company},
+  pages={64--90},
+  year={1962}
+}
+
+@book{owens1998composers,
+  title={Composers at work: the craft of musical composition 1450-1600},
+  author={Owens, Jessie Ann},
+  year={1998},
+  publisher={Oxford University Press}
+}
+
+@article{steels1993artificial,
+  title={The artificial life roots of artificial intelligence},
+  author={Steels, Luc},
+  journal={Artificial life},
+  volume={1},
+  number={1\_2},
+  pages={75--110},
+  year={1993},
+  publisher={MIT Press}
+}
+
+@article{simon1960new,
+  title={The new science of management decision.},
+  author={Simon, Herbert A},
+  year={1960},
+  publisher={Harper \& Brothers}
+}
+
+@article{russell1995modern,
+  title={A modern approach},
+  author={Russell, Stuart and Norvig, Peter and Intelligence, Artificial},
+  journal={Artificial Intelligence. Prentice-Hall, Egnlewood Cliffs},
+  volume={25},
+  pages={27},
+  year={1995}
+}
+
+@inproceedings{jeffries1991user,
+  title={User interface evaluation in the real world: a comparison of four techniques},
+  author={Jeffries, Robin and Miller, James R and Wharton, Cathleen and Uyeda, Kathy},
+  booktitle={Proceedings of the SIGCHI conference on Human factors in computing systems},
+  pages={119--124},
+  year={1991},
+  organization={ACM}
+}
+
+@inproceedings{hollingsed2007usability,
+  title={Usability inspection methods after 15 years of research and practice},
+  author={Hollingsed, Tasha and Novick, David G},
+  booktitle={Proceedings of the 25th annual ACM international conference on Design of communication},
+  pages={249--255},
+  year={2007},
+  organization={ACM}
+}
+
+@article{holzinger2005usability,
+  title={Usability engineering methods for software developers},
+  author={Holzinger, Andreas},
+  journal={Communications of the ACM},
+  volume={48},
+  number={1},
+  pages={71--74},
+  year={2005},
+  publisher={ACM}
+}
+
+@article{fagan1999design,
+  author={Fagan,M. E.},
+  year={1999},
+  title={Design and code inspections to reduce errors in program development},
+  journal={IBM Systems Journal},
+  volume={38},
+  number={2},
+  pages={258-287},
+  note={Copyright - Copyright International Business Machines Corporation 1999; Last updated - 2012-02-07; CODEN - IBMSA7},
+  abstract={Substantial net improvements in programming quality and productivity have been obtained through the use of formal inspections of design and of code. Improvements are made possible by a systematic and efficient design and code verification process, with well-defined roles for inspection participants. The manner in which inspection data is categorized and made suitable for process analysis is an important factor in attaining the improvements. It is shown that by using inspection results, a mechanism for initial error reduction followed by ever-improving error rates can be achieved.},
+  keywords={Computers; Inspections; Systems design; Accuracy; Debugging; Systems development; Computer programming; 5240:Software & systems; 9130:Experimental/theoretical treatment; 5320:Quality control},
+  isbn={00188670},
+  language={English},
+  url={https://search.proquest.com/docview/222415339?accountid=190474},
+}
+
+@article{laitenberger2002survey,
+  title={A survey of software inspection technologies},
+  author={Laitenberger, Oliver},
+  year={2002},
+  publisher={Citeseer}
+}
+
+@article{porter1996review,
+  title={A review of software inspections},
+  author={Porter, Adam and Siy, Harvey and Votta, Lawrence},
+  journal={Advances in Computers},
+  volume={42},
+  pages={39--76},
+  year={1996},
+  publisher={Elsevier}
+}
+
+@inproceedings{nielsen1994usability,
+   author = {Nielsen, Jakob},
+   title = {Usability Inspection Methods},
+   booktitle = {Conference Companion on Human Factors in Computing Systems},
+   series = {CHI '94},
+   year = {1994},
+   publisher = {ACM},
+   address = {New York, NY, USA},
+}
+
+@article{norman2010natural,
+  title={Natural user interfaces are not natural},
+  author={Norman, Donald A},
+  journal={interactions},
+  volume={17},
+  number={3},
+  pages={6--10},
+  year={2010},
+  publisher={ACM}
+}
+
+@inproceedings{cope1995cost,
+  title={Cost-justifying usability engineering: A real world example},
+  author={Cope, Michael E and Uliano, Kevin C},
+  booktitle={Proceedings of the Human Factors and Ergonomics Society Annual Meeting},
+  volume={39},
+  number={4},
+  pages={263--267},
+  year={1995},
+  organization={SAGE Publications Sage CA: Los Angeles, CA}
+}
+
+@book{galitz2007essential,
+  title={The essential guide to user interface design: an introduction to GUI design principles and techniques},
+  author={Galitz, Wilbert O},
+  year={2007},
+  publisher={John Wiley \& Sons}
+}
+
+@misc{mandelbaum2014design,
+	author={Melissa Mandelbaum},
+    year={2014},
+    title={Design Principles},
+    url={http://learndesignprinciples.com/index.html}
+}
+
+@misc{mcleod2008likert,
+	title={Likert Scale},
+    author={Saul McLeod},
+    year={2008},
+    url={https://www.simplypsychology.org/likert-scale.html}
+}
+
+@article{likert1932technique,
+  title={A technique for the measurement of attitudes.},
+  author={Likert, Rensis},
+  journal={Archives of psychology},
+  year={1932}
+}
+
+
+@article{newsted1998survey,
+  title={Survey instruments in information systems},
+  author={Newsted, Peter R and Huff, Sid L and Munro, Malcolm C},
+  journal={MIS quarterly},
+  volume={22},
+  number={4},
+  pages={553},
+  year={1998},
+  publisher={University of Minnesota, MIS Research Center}
+}
+
+
+@article{goddard1996designing,
+  title={Designing surveys and questionnaires for research},
+  author={Goddard III, ROBERT D and Villanova, Peter},
+  journal={The psychology research handbook: A guide for graduate students and research assistants},
+  pages={85--97},
+  year={1996}
+}
+
+@article{mathers2007surveys,
+  title={Surveys and questionnaires},
+  author={Mathers, Nigel and Fox, Nick and Hunn, Amanda},
+  journal={Trent: RDSU},
+  year={2007}
+}
+
+@article{mackenzie1989note,
+  title={A note on the information-theoretic basis for Fitts’ law},
+  author={MacKenzie, I Scott},
+  journal={Journal of motor behavior},
+  volume={21},
+  number={3},
+  pages={323--330},
+  year={1989},
+  publisher={Taylor \& Francis}
+}
+
+
+@article{Shannon:2001:MTC:584091.584093,
+ author = {Shannon, C. E.},
+ title = {A Mathematical Theory of Communication},
+ journal = {SIGMOBILE Mob. Comput. Commun. Rev.},
+ issue_date = {January 2001},
+ volume = {5},
+ number = {1},
+ month = jan,
+ year = {2001},
+ issn = {1559-1662},
+ pages = {3--55},
+ numpages = {53},
+ url = {http://doi.acm.org/10.1145/584091.584093},
+ doi = {10.1145/584091.584093},
+ acmid = {584093},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+} 
+
+@article{mackenzie1992fitts,
+  title={Fitts' law as a research and design tool in human-computer interaction},
+  author={MacKenzie, I Scott},
+  journal={Human-computer interaction},
+  volume={7},
+  number={1},
+  pages={91--139},
+  year={1992},
+  publisher={L. Erlbaum Associates Inc.}
+}
+
+@misc{sauro2011measuring,
+	author={Jeff Sauro},
+    year={2011},
+    title={Measuring task times without users},
+	url={https://measuringu.com/predicted-times/}
+}
+
+@book{card1983the,
+ author = {Card, Stuart K. and Newell, Allen and Moran, Thomas P.},
+ title = {The  Psychology of Human-Computer Interaction},
+ year = {1983},
+ isbn = {0898592437},
+ publisher = {L. Erlbaum Associates Inc.},
+ address = {Hillsdale, NJ, USA},
+}
+
+@article{sauro2009estimating,
+  title={Estimating productivity: composite operators for Keystroke Level Modeling},
+  author={Sauro, Jeff},
+  journal={Human-Computer Interaction. New Trends},
+  pages={352--361},
+  year={2009},
+  publisher={Springer}
+}
+
+@article{blair2008user,
+  title={User interface design principles for interaction design},
+  author={Blair-Early, Adream and Zender, Mike},
+  journal={Design Issues},
+  volume={24},
+  number={3},
+  pages={85--107},
+  year={2008},
+  publisher={MIT Press}
+}
+
+@article{shedroff1999information,
+  title={Information interaction design: A unified field theory of design},
+  author={Shedroff, Nathan},
+  journal={Information design},
+  pages={267--292},
+  year={1999}
+}
+
+@book{pettersson2002information,
+  title={Information design: An introduction},
+  author={Pettersson, Rune},
+  volume={3},
+  year={2002},
+  publisher={John Benjamins Publishing}
+}
+
+@article{horn1999information,
+  title={Information design: Emergence of a new profession},
+  author={Horn, Robert E},
+  journal={Information design},
+  pages={15--33},
+  year={1999},
+  publisher={MIT Press: Cambridge, MA, USA}
+}
+
+@article{nielsen1994heuristic,
+  title={Heuristic evaluation},
+  author={Nielsen, Jakob},
+  journal={Usability inspection methods},
+  volume={17},
+  number={1},
+  pages={25--62},
+  year={1994}
+}
+
+@inproceedings{nielsen1990heuristic,
+  title={Heuristic evaluation of user interfaces},
+  author={Nielsen, Jakob and Molich, Rolf},
+  booktitle={Proceedings of the {SIGCHI} conference on Human factors in computing systems},
+  pages={249--256},
+  year={1990},
+  organization={{ACM}}
+}
+
+@misc{nielsen2013usability,
+	title={10 Usability Heuristics for User Interface Design},
+    author={Jakob Nielsen},
+    year={2013},
+    url={http://www.designprinciplesftw.com/collections/10-usability-heuristics-for-user-interface-design}
+}
+
+
+@article{curtis1988field,
+  title={A field study of the software design process for large systems},
+  author={Curtis, Bill and Krasner, Herb and Iscoe, Neil},
+  journal={Communications of the {ACM}},
+  volume={31},
+  number={11},
+  pages={1268--1287},
+  year={1988},
+  publisher={{ACM}}
+}
+
+@book{humphrey1995discipline,
+  title={A discipline for software engineering},
+  author={Humphrey, Watts S},
+  year={1995},
+  publisher={Addison-Wesley Longman Publishing Co., Inc.}
+}
+
+@inproceedings{deka2016datadriven,
+ author = {Deka, Biplab},
+ title = {Data-driven Mobile App Design},
+ booktitle = {Proceedings of the 29th Annual Symposium on User Interface Software and Technology},
+ series = {UIST '16 Adjunct},
+ year = {2016},
+ isbn = {978-1-4503-4531-6},
+ location = {Tokyo, Japan},
+ pages = {21--24},
+ numpages = {4},
+ url = {http://doi.acm.org/10.1145/2984751.2984786},
+ doi = {10.1145/2984751.2984786},
+ acmid = {2984786},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {data-driven design, interaction mining, mobile apps},
+} 
+
+
+
+@inproceedings{wu2003multi,
+  title={Multi-finger and whole hand gestural interaction techniques for multi-user tabletop displays},
+  author={Wu, Mike and Balakrishnan, Ravin},
+  booktitle={Proceedings of the 16th annual {ACM} symposium on User interface software and technology},
+  pages={193--202},
+  year={2003},
+  organization={{ACM}}
+}
+
+@inproceedings{mistry2009sixthsense,
+  title={SixthSense: a wearable gestural interface},
+  author={Mistry, Pranav and Maes, Pattie},
+  booktitle={{ACM SIGGRAPH} ASIA 2009 Sketches},
+  pages={11},
+  year={2009},
+  organization={ACM}
+}
+
+@inproceedings{grossman2004multi,
+  title={Multi-finger gestural interaction with 3d volumetric displays},
+  author={Grossman, Tovi and Wigdor, Daniel and Balakrishnan, Ravin},
+  booktitle={Proceedings of the 17th annual {ACM} symposium on User interface software and technology},
+  pages={61--70},
+  year={2004},
+  organization={ACM}
+}
+
+
+@inproceedings{hasan2012human, 
+    author={H. S. Hasan and S. A. Kareem}, 
+    booktitle={2012 International Conference on Advanced Computer Science Applications and Technologies (ACSAT)}, 
+    title={Human Computer Interaction for Vision Based Hand Gesture Recognition: A Survey}, 
+    year={2012}, 
+    pages={55-60}, 
+    keywords={computer vision;gesture recognition;human computer interaction;HCI;gesture taxonomy;human computer interaction;intuitive method;natural interface;vision based hand gesture recognition;Gesture recognition;Human-Computer Interaction;human computer interaction;natural interfaces;recognition;representations}, 
+    doi={10.1109/ACSAT.2012.37}, 
+    month={Nov},
+}
+
+@misc{apple2017ui,
+	title={UIGestureRecognizer},
+    author={{Apple Inc.}},
+    year={2017},
+    url={https://developer.apple.com/documentation/uikit/uigesturerecognizer}
+}
+
+@inbook{kurtenbach1996gestures,
+	author={Kurtenbach, Hulteen},
+    title = {Gestures in Human-Computer Communication},
+    pages = {309-317},
+    year = 1996,
+    crossref = "laurel1996the",
+    volume = 1 
+}
+
+@Article{porta2007human,
+author="Porta, Marco",
+title="Human--Computer input and output techniques: an analysis of current research and promising applications",
+journal="Artificial Intelligence Review",
+year="2007",
+month="Oct",
+day="01",
+volume="28",
+number="3",
+pages="197--226",
+abstract="Personal computing applications are constantly increasing their potential power, thanks to steadily growing hardware capabilities and large diffusion of high-quality multimedia output devices. At the same time, mobile communication tools are becoming an integral part of our everyday life, with new advanced functionalities offered at an unrestrainable pace. Although the way we interact with information machines is substantially the same since 20years---based on keyboard, mouse and window metaphor---other communication modalities are possible, and shortly may become popular as additional interaction methods. Given the paramount importance of the ``interface'' in present computer applications, no alternative should be ignored, as it could greatly improve the quality of both interaction processes and user cognitive performance. Without pretending to foresee the future, in this paper we provide an overview of the main current technologies which can enable potential novel interfaces, discussing their features, strengths, weaknesses and promising applications.",
+issn="1573-7462",
+doi="10.1007/s10462-009-9098-5",
+url="https://doi.org/10.1007/s10462-009-9098-5"
+}
+
+
+
+@inproceedings{engelbart1968a,
+ author = {Engelbart, Douglas C. and English, William K.},
+ title = {A Research Center for Augmenting Human Intellect},
+ booktitle = {Proceedings of the December 9-11, 1968, Fall Joint Computer Conference, Part I},
+ series = {AFIPS '68 (Fall, part I)},
+ year = {1968},
+ location = {San Francisco, California},
+ pages = {395--410},
+ numpages = {16},
+ url = {http://doi.acm.org/10.1145/1476589.1476645},
+ doi = {10.1145/1476589.1476645},
+ acmid = {1476645},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
+
+
+
+
+@misc{grant1994computer,
+  title={Computer keyboard},
+  author={Grant, A.H.},
+  url={https://www.google.com/patents/US5339097},
+  year={1994},
+  month=aug # "~16",
+  publisher={Google Patents},
+  note={US Patent 5,339,097}
+}
+
+
+
+@inbook{gomoll1996some,
+	author={K. Gomoll},
+    title={Some Techniques for Observing Users},
+    pages={85-90},
+    year = 1996,
+    crossref = "laurel1996the",
+    volume = 1
+}
+
+@book{laurel1996the,
+	title= {The Art of Human-Computer Interface Design},
+    year = 1996,
+    editor = {Laurel},
+    publisher = {Addison-Wesley Publishing Company}
+}
+
+@misc{eller2017ui,
+	title={UIGestureRecognizer Tutorial: Getting Started},
+    author={Eller, Brody},
+    year={2017},
+    url={https://www.raywenderlich.com/162745/uigesturerecognizer-tutorial-getting-started}
+}
+
+@article{bray1997extensible,
+  title={Extensible markup language (XML).},
+  author={Bray, Tim and Paoli, Jean and Sperberg-McQueen, C Michael and Maler, Eve and Yergeau, Fran{\c{c}}ois},
+  journal={World Wide Web Journal},
+  volume={2},
+  number={4},
+  pages={27--66},
+  year={1997}
+}
+
+@article{jensen1992circle,
+ ISSN = {00030139, 15473848},
+ URL = {http://www.jstor.org/stable/831450},
+ abstract = {The earliest circles of fifths appear in a Russian-language treatise on composition, Nikolai Diletskii's Grammatika (Grammar), written in the late 1670s. This article discusses the origins of Diletskii's treatise and its long-standing influence in Russia, where it circulated for one hundred years, the theoretical content of the work, and the complex relationships among the three surviving variants (from Smolensk 1677, from Moscow 1679, and from Moscow in versions from 1679 and 1681). Diletskii's circles of fifths, although certainly unknown to contemporary theorists, fit into a Western theoretical tradition centering on practical instruction using keyboard instruments.},
+ author = {Claudia R. Jensen},
+ journal = {Journal of the American Musicological Society},
+ number = {2},
+ pages = {305-331},
+ publisher = {[University of California Press, American Musicological Society]},
+ title = {A Theoretical Work of Late Seventeenth-Century Muscovy: Nikolai Diletskii's "Grammatika" and the Earliest Circle of Fifths},
+ volume = {45},
+ year = {1992}
+}
+
+@misc{makemusic2017musicxml,
+	title={music{XML}}, 
+	author={MakeMusic, Inc.},
+    year={2017},
+    url={http://www.musicxml.com/}
+}
+
+@inproceedings{kazi2012vignette,
+  title={Vignette: interactive texture design and manipulation with freeform gestures for pen-and-ink illustration},
+  author={Kazi, Rubaiat Habib and Igarashi, Takeo and Zhao, Shengdong and Davis, Richard},
+  booktitle={Proceedings of the {S}{I}{G}{C}{H}{I} Conference on Human Factors in Computing Systems},
+  pages={1727--1736},
+  year={2012},
+  organization={{A}{C}{M}}
+}
+
+@article{radford2009introduction,
+  title={Introduction: beyond words},
+  author={Radford, L and Edwards, L and Arzarello, F},
+  journal={Educational studies in mathematics},
+  volume={70},
+  number={2},
+  pages={91--95},
+  year={2009},
+  publisher={Springer}
+}
+
+@article{muntigl2004modelling,
+  title={Modelling multiple semiotic systems: The case of gesture and speech},
+  author={Muntigl, Peter},
+  journal={Perspectives on multimodality},
+  pages={31--50},
+  year={2004}
+}
+
+@book{eco1976theory,
+  title={A theory of semiotics},
+  author={Eco, Umberto},
+  volume={217},
+  year={1976},
+  publisher={Indiana University Press}
+}
+
+@book{nespoulous2014biological,
+  title={The biological foundations of gesture: Motor and semiotic aspects},
+  author={Nespoulous, Jean-Luc and Perron, Paul and Lecours, Andr{\'e} Roch},
+  year={2014},
+  publisher={Psychology Press}
+}
+
+@inproceedings{epps2006a,
+ author = {Epps, Julien and Lichman, Serge and Wu, Mike},
+ title = {A Study of Hand Shape Use in Tabletop Gesture Interaction},
+ booktitle = {{C}{H}{I} '06 Extended Abstracts on Human Factors in Computing Systems},
+ series = {CHI EA '06},
+ year = {2006},
+ isbn = {1-59593-298-4},
+ pages = {748--753},
+ numpages = {6},
+ publisher = {{A}{C}{M}},
+ address = {New York, NY, USA}
+} 
+
+@book{graf2013beethoven,
+  title={From Beethoven To Shostakovich-The Psychology Of The Composing Process},
+  author={Graf, Max},
+  year={2013},
+  publisher={Read Books Ltd}
+}
+
+@article{travis2014comparative,
+  title={A comparative study of the usability of touch-based and mouse-based interaction},
+  author={Travis, Charlotte and Murano, Pietro},
+  journal={International Journal of Pervasive Computing and Communications},
+  volume={10},
+  number={1},
+  pages={115--134},
+  year={2014},
+  publisher={Emerald Group Publishing Limited}
+}
+
+@article{bennett1976process,
+  title={The process of musical creation: Interviews with eight composers},
+  author={Bennett, Stan},
+  journal={Journal of research in music education},
+  volume={24},
+  number={1},
+  pages={3--13},
+  year={1976},
+  publisher={SAGE Publications Sage CA: Los Angeles, CA}
+}
+
+@inproceedings{kikuchi2014automatic,
+  title={Automatic melody generation considering chord progression by genetic algorithm},
+  author={Kikuchi, Motoki and Osana, Yuko},
+  booktitle={Nature and Biologically Inspired Computing (NaBIC), 2014 Sixth World Congress on},
+  pages={190--195},
+  year={2014},
+  organization={{I}{E}{E}{E}}
+}
+
+@article{ames1989markov,
+  title={The Markov process as a compositional model: A survey and tutorial},
+  author={Ames, Charles},
+  journal={Leonardo},
+  pages={175--187},
+  year={1989},
+  publisher={JSTOR}
+}
+
+@article{1510647615n.d.,
+Author = {Travis, Charlotte},
+ISSN = {1742-7371},
+Keywords = {Studies, Smartphones, Product introduction, Experiments, Computer industry, User interface, Cursor control devices},
+Title = {A comparative study of the usability of touch-based and mouse-based interaction.},
+Volume = {vol. 10, no. 1 (2014), p. 115},
+Year = {2014},
+}
+
+
+@inproceedings{eigenfeldt2010realtime,
+  title={Realtime generation of harmonic progressions using controlled Markov selection},
+  author={Eigenfeldt, Arne and Pasquier, Philippe},
+  booktitle={Proceedings of ICCC-X-Computational Creativity Conference},
+  pages={16--25},
+  year={2010}
+}
+
+@inproceedings{dressler2005extraction,
+  title={Extraction of the melody pitch contour from polyphonic audio},
+  author={Dressler, Karin},
+  booktitle={Proc. 6th International Conference on Music Information Retrieval},
+  volume={110},
+  year={2005}
+}
+
+@inproceedings{ip2005cyber, 
+  author={H. H. S. Ip and K. C. K. Law and B. Kwong}, 
+  booktitle={11th International Multimedia Modelling Conference}, 
+  title={Cyber Composer: Hand Gesture-Driven Intelligent Music Composition and Generation}, 
+  year={2005}, 
+  pages={46-52},
+  ISSN={1550-5502}
+}
+
+@book{cooke1959language,
+  title={The language of music},
+  author={Cooke, Deryck},
+  year={1959},
+  publisher={Oxford University Press}
+}
+
+@inproceedings{feng2003popular,
+  title={Popular music retrieval by detecting mood},
+  author={Feng, Yazhong and Zhuang, Yueting and Pan, Yunhe},
+  booktitle={Proceedings of the 26th annual international {A}{C}{M} {S}{I}{G}{I}{R} conference on Research and development in information retrieval},
+  pages={375--376},
+  year={2003},
+  organization={{A}{C}{M}}
+}
+
+@article{macdonald2006creativity,
+  title={Creativity and flow in musical composition: An empirical investigation},
+  author={MacDonald, Raymond and Byrne, Charles and Carlton, Lana},
+  journal={Psychology of Music},
+  volume={34},
+  number={3},
+  pages={292--306},
+  year={2006},
+  publisher={Sage Publications Sage CA: Thousand Oaks, CA}
+}
+
+@inproceedings{gibson1991neurogen,
+  title={Neurogen, musical composition using genetic algorithms and cooperating neural networks},
+  author={Gibson, PM and Byrne, JA},
+  booktitle={Artificial Neural Networks, 1991., Second International Conference on},
+  pages={309--313},
+  year={1991},
+  organization={IET}
+}
+
+@article{goto2004real,
+  title={A real-time music-scene-description system: Predominant-F0 estimation for detecting melody and bass lines in real-world audio signals},
+  author={Goto, Masataka},
+  journal={Speech Communication},
+  volume={43},
+  number={4},
+  pages={311--329},
+  year={2004},
+  publisher={Elsevier}
+}
+
+@article{salamon2012melody, 
+  author={J. Salamon and E. Gomez}, 
+  journal={{I}{E}{E}{E} Transactions on Audio, Speech, and Language Processing}, 
+  title={Melody Extraction From Polyphonic Music Signals Using Pitch Contour Characteristics}, 
+  year={2012}, 
+  volume={20}, 
+  number={6}, 
+  pages={1759-1770},
+  ISSN={1558-7916}, 
+  month={Aug},
+}
+
+
+@article{poliner2007melody, 
+  author={G. E. Poliner and D. P. W. Ellis and A. F. Ehmann and E. Gomez and S. Streich and B. Ong}, 
+  journal={{I}{E}{E}{E} Transactions on Audio, Speech, and Language Processing}, 
+  title={Melody Transcription From Music Audio: Approaches and Evaluation}, 
+  year={2007}, 
+  volume={15}, 
+  number={4}, 
+  pages={1247-1256},
+  ISSN={1558-7916}, 
+  month={May},
+}
+
+@inproceedings{kazi2014draco,
+  title={Draco: bringing life to illustrations with kinetic textures},
+  author={Kazi, Rubaiat Habib and Chevalier, Fanny and Grossman, Tovi and Zhao, Shengdong and Fitzmaurice, George},
+  booktitle={Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
+  pages={351--360},
+  year={2014},
+  organization={{A}{C}{M}}
+}
+
+@inproceedings{kazi2014kitty,
+  title={Kitty: sketching dynamic and interactive illustrations},
+  author={Kazi, Rubaiat Habib and Chevalier, Fanny and Grossman, Tovi and Fitzmaurice, George},
+  booktitle={Proceedings of the 27th annual {A}{C}{M} symposium on User interface software and technology},
+  pages={395--405},
+  year={2014},
+  organization={{A}{C}{M}}
+}
+
+
+@article{kemper2005music,
+  title={Music as therapy},
+  author={Kemper, Kathi J and Danhauer, Suzanne C},
+  journal={South Med J},
+  volume={98},
+  number={3},
+  pages={282--8},
+  year={2005}
+}
+
+@book{donnelly2005spectre,
+  title={The spectre of sound: Music in film and television},
+  author={Donnelly, Kevin},
+  year={2005},
+  publisher={British Film Institute; University of California Press}
+}
+
+@book{hawkins2013pac,
+  title={From Pac-Man to pop music: interactive audio in games and new media},
+  author={Hawkins, Stan and Burns, Lori},
+  year={2013},
+  publisher={Ashgate Publishing, Ltd.}
+}
+
+@article{tagg1982analysing, 
+	title={Analysing popular music: theory, method and practice}, 
+    volume={2}, 
+    journal={Popular Music}, 
+    publisher={Cambridge University Press}, 
+    author={Tagg, Philip}, 
+    year={1982}, 
+    pages={37–67}
+}
+
+@article{assayag1999computer,
+    author = { Gérard Assayag  and  Camilo Rueda  and  Mikael Laurson  and  Carlos Agon  and  Olivier Delerue },
+    title = {Computer-Assisted Composition at IRCAM: From PatchWork to OpenMusic},
+    journal = {Computer Music Journal},
+    volume = {23},
+    number = {3},
+    pages = {59-72},
+    year = {1999},
+}
+
+@book{brinkman1984data,
+  title={A Data Structure for Computer Analysis of Musical Scores},
+  author={Brinkman, Alexander R},
+  year={1984},
+  publisher={Ann Arbor, MI: Michigan Publishing, University of Michigan Library}
+}
+
+@article{buxton1978the,
+ ISSN = {01489267, 15315169},
+ author = {William Buxton and William Reeves and Ronald Baecker and Leslie Mezei},
+ journal = {Computer Music Journal},
+ number = {4},
+ pages = {10-20},
+ publisher = {The MIT Press},
+ title = {The Use of Hierarchy and Instance in a Data Structure for Computer Music},
+ volume = {2},
+ year = {1978}
+}
+
+@article{martin2001noise,
+  title={Noise power spectral density estimation based on optimal smoothing and minimum statistics},
+  author={Martin, Rainer},
+  journal={{I}{E}{E}{E} Transactions on speech and audio processing},
+  volume={9},
+  number={5},
+  pages={504--512},
+  year={2001},
+  publisher={{I}{E}{E}{E}}
+}
+
+@book{stoica1997introduction,
+  title={Introduction to spectral analysis},
+  author={Stoica, Petre and Moses, Randolph L},
+  volume={1},
+  year={1997},
+  publisher={Prentice hall Upper Saddle River}
+}
+
+@article{gabor1946theory,
+  title={Theory of communication. Part 1: The analysis of information},
+  author={Gabor, Dennis},
+  journal={Journal of the Institution of Electrical Engineers-Part III: Radio and Communication Engineering},
+  volume={93},
+  number={26},
+  pages={429--441},
+  year={1946},
+  publisher={IET}
+}
+
+@article{dorfler2001time,
+  title={Time-frequency analysis for music signals: A mathematical approach},
+  author={D{\"o}rfler, Monika},
+  journal={Journal of New Music Research},
+  volume={30},
+  number={1},
+  pages={3--12},
+  year={2001},
+  publisher={Taylor \& Francis}
+}
+
+@book{rameau1722traite,
+  title={Treatise on Harmony},
+  author={Rameau, Jean-Philippe},
+  year={1722},
+  publisher={Imp. de J.-B.-C. Ballard}
+}
+
+@article{dowling1971contour,
+  title={Contour, interval, and pitch recognition in memory for melodies},
+  author={Dowling, W Jay and Fujitani, Diane S},
+  journal={The Journal of the Acoustical Society of America},
+  volume={49},
+  number={2B},
+  pages={524--531},
+  year={1971},
+  publisher={ASA}
+}
+
+@article{marks1974associations,
+  title={On associations of light and sound: The mediation of brightness, pitch, and loudness},
+  author={Marks, Lawrence E},
+  journal={The American journal of psychology},
+  pages={173--188},
+  year={1974},
+  publisher={JSTOR}
+}
+
+@article{nettheim1992on,
+    author = { Nigel   Nettheim },
+    title = {On the spectral analysis of melody},
+    journal = {Interface},
+    volume = {21},
+    number = {2},
+    pages = {135-148},
+    year = {1992}
+}
+
+@article{gunduz2005mathematical,
+  title={The mathematical analysis of the structure of some songs},
+  author={G{\"u}nd{\"u}z, G{\"u}ng{\"o}r and G{\"u}nd{\"u}z, Ufuk},
+  journal={Physica A: Statistical Mechanics and its Applications},
+  volume={357},
+  number={3},
+  pages={565--592},
+  year={2005},
+  publisher={Elsevier}
+}
+
+@article{dannenberg1993music,
+ ISSN = {01489267, 15315169},
+ author = {Roger B. Dannenberg},
+ journal = {Computer Music Journal},
+ number = {3},
+ pages = {20-30},
+ publisher = {The MIT Press},
+ title = {Music Representation Issues, Techniques, and Systems},
+ volume = {17},
+ year = {1993}
+}
+
+@article{fucks1962mathematical,
+  title={Mathematical analysis of formal structure of music},
+  author={Fucks, Wilhelm},
+  journal={IRE Transactions on Information Theory},
+  volume={8},
+  number={5},
+  pages={225--228},
+  year={1962},
+  publisher={{I}{E}{E}{E}}
+}
+
+@article{voss1978noise,
+  title={’’1/f noise’’in music: Music from 1/f noise},
+  author={Voss, Richard F and Clarke, John},
+  journal={The Journal of the Acoustical Society of America},
+  volume={63},
+  number={1},
+  pages={258--263},
+  year={1978},
+  publisher={ASA}
+}
+
+@inproceedings{unehara2001composition,
+  title={Composition of music using human evaluation},
+  author={Unehara, Muneyuri and Onisawa, Takehisa},
+  booktitle={The 10th {I}{E}{E}{E} International Conference on Fuzzy Systems, 2001},
+  volume={3},
+  pages={1203--1206},
+  year={2001},
+  organization={{I}{E}{E}{E}}
+}
+
+@article{unehara2005music,
+  title={Music composition by interaction between human and computer},
+  author={Unehara, Muneyuki and Onisawa, Takehisa},
+  journal={New Generation Computing},
+  volume={23},
+  number={2},
+  pages={181--191},
+  year={2005},
+  publisher={Springer}
+}
+
+@inproceedings{tojo2006analysis,
+  title={Analysis of Chord Progression by HPSG.},
+  author={Tojo, Satoshi and Oka, Yoshinori and Nishida, Masafumi and others},
+  booktitle={Artificial Intelligence and Applications},
+  pages={305--310},
+  year={2006}
+}
+
+@article{goodman1996reading,
+  title={Reading Writing and Resonance: An Experiential Workshop for Practitioners},
+  author={Goodman, Ronnie and Mannion, Greg and Brzeski, Angela},
+  year={1996}
+}
+
+@book{reich1974writings,
+  title={Writings about music},
+  author={Reich, Steve and Reich, Steve},
+  year={1974},
+  publisher={Press of Nova Scotia College of Art and Design}
+}
+
+@book{baars1993cognitive,
+  title={A cognitive theory of consciousness},
+  author={Baars, Bernard J},
+  year={1993},
+  publisher={Cambridge University Press}
+}
+
+@article{fraisse1982rhythm,
+  title={Rhythm and tempo},
+  author={Fraisse, Paul},
+  journal={The psychology of music},
+  volume={1},
+  pages={149--180},
+  year={1982}
+}
+
+@article{ryynanen2008automatic,
+    author = { Matti P.  Ryynänen and  Anssi P.  Klapuri},
+    title = {Automatic Transcription of Melody, Bass Line, and Chords in Polyphonic Music},
+    journal = {Computer Music Journal},
+    volume = {32},
+    number = {3},
+    pages = {72-86},
+    year = {2008}
+}
+
+@book{loy2011musimathics,
+  title={Musimathics: the mathematical foundations of music},
+  author={Loy, Gareth},
+  volume={1},
+  year={2011},
+  publisher={Mit Press}
+}
+
+@article{pavlovic1997visual,
+  title={Visual interpretation of hand gestures for human-computer interaction: A review},
+  author={Pavlovic, Vladimir I and Sharma, Rajeev and Huang, Thomas S.},
+  journal={{I}{E}{E}{E} Transactions on pattern analysis and machine intelligence},
+  volume={19},
+  number={7},
+  pages={677--695},
+  year={1997},
+  publisher={{I}{E}{E}{E}}
+}
+
+@book{armstrong1995gesture,
+  title={Gesture and the nature of language},
+  author={Armstrong, David F and Stokoe, William C and Wilcox, Sherman E},
+  year={1995},
+  publisher={Cambridge University Press}
+}
+
+@book{dix2009human,
+  title={Human-computer interaction},
+  author={Dix, Alan},
+  year={2009},
+  publisher={Springer}
+}
+
+@inproceedings{minge2008dynamics,
+  title={Dynamics of user experience},
+  author={Minge, Michael},
+  booktitle={Proceedings of the Workshop on Research Goals and Strategies for Studying User Experience and Emotion, NordiCHI},
+  volume={8},
+  year={2008}
+}
+
+@inproceedings{law2009understanding,
+ author = {Law, Effie Lai-Chong and Roto, Virpi and Hassenzahl, Marc and Vermeeren, Arnold P.O.S. and Kort, Joke},
+ title = {Understanding, Scoping and Defining User Experience: A Survey Approach},
+ booktitle = {Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
+ series = {CHI '09},
+ year = {2009},
+ isbn = {978-1-60558-246-7},
+ location = {Boston, MA, USA},
+ pages = {719--728},
+ numpages = {10},
+ acmid = {1518813},
+ publisher = {{A}{C}{M}},
+ address = {New York, NY, USA},
+ keywords = {definition, iso, survey, usability, user experience},
+}
+
+@book{jarret2008music,
+	title = {Music Composition for Dummies},
+    author = {Jarret and Day},
+    year = {2008},
+    publisher = {Wiley Publishing}
+    }
+
+@inproceedings{nehaniv2005classifying,
+  title={Classifying types of gesture and inferring intent},
+  author={Nehaniv, Chrystopher L},
+  booktitle={Procs of the AISB 05 Symposium on Robot Companions},
+  year={2005},
+  organization={AISB}
+}
+
+@article{moroni2000vox,
+    author = { Artemis Moroni and  Jônatas Manzolli and  Fernando Von Zuben and  Ricardo Gudwin},
+    title = {Vox Populi: An Interactive Evolutionary System for Algorithmic Music Composition},
+    journal = {Leonardo Music Journal},
+    volume = {-},
+    number = {},
+    pages = {49-54},
+    year = {2000}
+}
+
+@book{godoy2010musical,
+  title={Musical gestures: Sound, movement, and meaning},
+  author={God{\o}y, Rolf Inge and Leman, Marc},
+  year={2010},
+  publisher={Routledge}
+}
+
+@article{rautaray2015vision,
+  title={Vision based hand gesture recognition for human computer interaction: a survey},
+  author={Rautaray, Siddharth S and Agrawal, Anupam},
+  journal={Artificial Intelligence Review},
+  volume={43},
+  number={1},
+  pages={1--54},
+  year={2015},
+  publisher={Springer}
+}
+
+@inproceedings{ng2002interactive,
+ author = {Ng, Kia},
+ title = {Interactive Gesture Music Performance Interface},
+ booktitle = {Proceedings of the 2002 Conference on New Interfaces for Musical Expression},
+ series = {NIME '02},
+ year = {2002},
+ isbn = {1-87465365-8},
+ location = {Dublin, Ireland},
+ pages = {1--2},
+ numpages = {2},
+ acmid = {1085218},
+ publisher = {National University of Singapore},
+ address = {Singapore, Singapore},
+ keywords = {gesture, interactive, motion, music, performance},
+}
+
+}
+
+@article{de2002ai,
+  title={AI and music: From composition to expressive performance},
+  author={De Mantaras, Ramon Lopez and Arcos, Josep Lluis},
+  journal={A{I} Magazine},
+  volume={23},
+  number={3},
+  pages={43},
+  year={2002},
+}
+
+@misc{velardo2016study,
+  title={Study Day on Computer Simulation of Musical Creativity},
+  author={Velardo, Valerio and Jan, Steven},
+  year={2016},
+  publisher={MIT Press}
+}
+
+@article{cao2015automatic,
+  title={Automatic composition of happy melodies based on relations},
+  author={Cao, Xizheng and Sun, Lin and Niu, Jingwen and Wu, Ruiqi and Liu, Yanmei and Cai, Huijuan},
+  journal={Multimedia Tools and Applications},
+  volume={74},
+  number={21},
+  pages={9097--9115},
+  year={2015},
+  publisher={Springer}
+}
+
+@article{bozhanov2014computoser,
+  title={Computoser-rule-based, probability-driven algorithmic music composition},
+  author={Bozhanov, Bozhidar},
+  journal={arXiv preprint arXiv:1412.3079},
+  year={2014}
+}
+
+@inproceedings{tamaki2009brainy,
+ author = {Tamaki, Emi and Miyaki, Takashi and Rekimoto, Jun},
+ title = {Brainy Hand: An Ear-worn Hand Gesture Interaction Device},
+ booktitle = {CHI '09 Extended Abstracts on Human Factors in Computing Systems},
+ series = {CHI EA '09},
+ year = {2009},
+ isbn = {978-1-60558-247-4},
+ location = {Boston, MA, USA},
+ pages = {4255--4260},
+ numpages = {6},
+ acmid = {1520649},
+ publisher = {{A}{C}{M}},
+ address = {New York, NY, USA},
+ keywords = {audio feedback, hand gesture, input device, interaction device, laser, projector, wearable},
+} 
+
+@article{dahlstedt2006musical,
+  title={Musical agents: toward computer-aided music composition using autonomous software agents},
+  author={Dahlstedt, Palle and McBurney, Peter},
+  journal={Leonardo},
+  volume={39},
+  number={5},
+  pages={469--470},
+  year={2006},
+  publisher={MIT Press}
+}
+
+@article{arcos1998saxex,
+Abstract = {Focuses on a study which determined the problem of generating expressive musical performances in the context of tenor saxophone interpretations. Discussion on spectral modeling synthesis; Details of the case-based reasoning paradigm; Overview of the tasks of the SaxEx system.},
+Author = {Arcos, Josep Lluis and de Mantaras, Ramon Lopez and Serra, Xavier},
+ISSN = {09298215},
+Journal = {Journal of New Music Research},
+Keywords = {MUSIC, ACOUSTICAL engineering, SAXOPHONE music, CASE-based reasoning},
+Number = {3},
+Pages = {194},
+Title = {Saxex: A Case-Based Reasoning System for Generating Expressive Musical Perfomances.},
+Volume = {27},
+Year = {1998},
+}
+
+@article{wanderley2002evaluation,
+  title={Evaluation of input devices for musical expression: Borrowing tools from hci},
+  author={Wanderley, Marcelo Mortensen and Orio, Nicola},
+  journal={Computer Music Journal},
+  volume={26},
+  number={3},
+  pages={62--76},
+  year={2002},
+  publisher={MIT Press}
+}
+
+@article{grachten2006a,
+Author = {Grachten, Maarten},
+ISSN = {0885-6125},
+Keywords = {Musical recordings, Artificial intelligence, Computer science, Music},
+Title = {A case based approach to expressivity-aware tempo transformation.},
+Volume = {vol. 65, no. 2-3 (Dec 2006), p. 411},
+Year = {2006},
+}
+@inproceedings{brown2017user,
+  title={A user experience review of music interaction evaluations},
+  author={Brown, Dom and Nash, Chris and Mitchell, Tom},
+  year={2017},
+  booktitle={Proceedings of the International Conference on New Interfaces for Musical Expression 2017}
+}
+
+@article{geis2008creating,
+  title={Creating melodies and baroque harmonies with ant colony optimization},
+  author={Geis, Michael and Middendorf, Martin},
+  journal={International Journal of Intelligent Computing and Cybernetics},
+  volume={1},
+  number={2},
+  pages={213--238},
+  year={2008},
+  publisher={Emerald Group Publishing Limited}
+}
+
+@book{burney1789general,
+  title={A General History of Music, from the Earliest Ages to the Present Period},
+  author={Burney, Charles},
+  number={4},
+  series={A General History of Music, from the Earliest Ages to the Present Period},
+  year={1789},
+  publisher={New York, Harcourt, Brace and Company}
+}
+
+@article{rothgeb1975strict,
+  title={Strict counterpoint and tonal theory},
+  author={Rothgeb, John},
+  journal={Journal of Music Theory},
+  volume={19},
+  number={2},
+  pages={260--284},
+  year={1975},
+  publisher={JSTOR}
+}
+
+@article{sneyeres2010theory,
+	author = "Jon Sneyers and Wannes Meert and Joost Vennekens and Yoshitaka Kameya and Taisuke Sato",
+	title = "CHR(PRISM)-based probabilistic logic learning",
+	year = "2010",
+	journal = "Theory and Practice of Logic Programming",
+	volume = "10",
+	number = "4-6",
+	pages = "433-447"
+}
+
+@article{de2012playing,
+  title={Playing with cases: rendering expressive music with case-based reasoning},
+  author={De Mantaras, Ramon Lopez},
+  journal={A{I} Magazine},
+  volume={33},
+  number={4},
+  pages={22},
+  year={2012}
+}
+
+@article{miranda2010artificial,
+	author = "Eduardo R. Miranda and Alexis Kirke and Qijun Zhang",
+	title = "Artificial Evolution of Expressive Performance of Music: An Imitative Multi-Agent Systems Approach",
+	year = "2010",
+	journal = "Computer Music Journal",
+	volume = "34",
+	number = "1",
+	pages = "80-96"
+}
+
+@article{schulze2011music,
+  author = "Schulze, Walter and van der Merwe, Brink",
+  journal = "{I}{E}{E}{E} MultiMedia",
+  number = "3",
+  pages = "78-85",
+  title = "Music Generation with Markov Models.",
+  volume = "18",
+  year = "2011",
+}
+
+@article{pasquier2017an,
+  author = {Pasquier, Philippe and Eigenfeldt, Arne and Bown, Oliver and Dubnov, Shlomo},
+  title = {An Introduction to Musical Metacreation},
+  journal = {Comput. Entertain.},
+  issue_date = {Summer 2016},
+  volume = {14},
+  number = {2},
+  month = {jan},
+  year = {2017},
+  issn = {1544-3574},
+  pages = {2:1--2:14},
+  articleno = {2},
+  numpages = {14},
+  acmid = {2930672},
+  publisher = {{A}{C}{M}},
+  address = {New York, NY, USA},
+  keywords = {Artificial intelligence, computational creativity, computer music, creative computing, generative art, machine learning},
+} 
+
+@article{dubnov2003using,
+ author = {Dubnov, Shlomo and Assayag, Gerard and Lartillot, Olivier and Bejerano, Gill},
+ title = {Using Machine-Learning Methods for Musical Style Modeling},
+ journal = {Computer},
+ issue_date = {October 2003},
+ volume = {36},
+ number = {10},
+ month = {oct},
+ year = {2003},
+ issn = {0018-9162},
+ pages = {73--80},
+ numpages = {8},
+ acmid = {1436998},
+ publisher = {{I}{E}{E}{E} Computer Society Press},
+ address = {Los Alamitos, CA, USA},
+} 
+
+@book{kivy1993fine,
+  title={The fine art of repetition: Essays in the philosophy of music},
+  author={Kivy, Peter},
+  year={1993},
+  publisher={Cambridge University Press}
+}
+
+
+@inproceedings{fukumoto2014creation,
+  title={Creation of Music Chord Progression Suited for User's Feelings Based on Interactive Genetic Algorithm},
+  author={Fukumoto, Makoto},
+  booktitle={2014 IIAI 3rd International Conference on Advanced Applied Informatics},
+  pages={757--762},
+  year={2014},
+  organization={{I}{E}{E}{E}}
+}
+
+@inproceedings{herremans2016morpheus,
+	title = {MorpheuS: Automatic music generation with recurrent pattern constraints and tension profiles},
+	booktitle = "{I}{E}{E}{E} {T}{E}{N}{C}{O}{N}",
+	number = {ISSN 2043-0167},
+	year = {2016},
+	publisher = {{I}{E}{E}{E}},
+	organization = {{I}{E}{E}{E}},
+	type = {technical report},
+	address = {Singapore},
+	issn = {EECSRR{\textendash}16-02},
+	author = {D. Herremans and E. Chew}
+}
+
+@inproceedings{birchfield2003generative,
+  title={Generative model for the creation of musical emotion, meaning, and form},
+  author={Birchfield, David},
+  booktitle={Proceedings of the 2003 {A}{C}{M} {S}{I}{G}{M}{M} workshop on Experiential telepresence},
+  pages={99--104},
+  year={2003},
+  organization={{A}{C}{M}}
+}
+
+
+
+@article{ramirez2008genetic,
+  title={A genetic rule-based model of expressive performance for jazz saxophone},
+  author={Ramirez, Rafael and Hazan, Amaury and Maestre, Esteban and Serra, Xavier},
+  journal={Computer Music Journal},
+  volume={32},
+  number={1},
+  pages={38--50},
+  year={2008},
+  publisher={MIT Press}
+}
+
+@article{miller1984genre,
+  title={Genre as social action},
+  author={Miller, Carolyn R},
+  journal={Quarterly Journal of Speech},
+  volume={70},
+  number={2},
+  pages={151--167},
+  year={1984},
+  publisher={Taylor \& Francis Group}
+}
+
+@article{bresin2000emotional,
+  title={Emotional coloring of computer-controlled music performances},
+  author={Bresin, Roberto and Friberg, Anders},
+  journal={Computer Music Journal},
+  volume={24},
+  number={4},
+  pages={44--63},
+  year={2000},
+  publisher={MIT Press}
+}
+
+@inproceedings{kikuchi2016music,
+  title={Music Composition with Recommendation},
+  author={Kikuchi, Junki and Yanagi, Hidekatsu and Mima, Yoshiaki},
+  booktitle={Proceedings of the 29th Annual Symposium on User Interface Software and Technology},
+  pages={137--138},
+  year={2016},
+  organization={{A}{C}{M}}
+}
+
+@inproceedings{yiiksel2011automatic,
+  title={Automatic music generation using evolutionary algorithms and neural networks},
+  author={Y\"{u}ksel, Ali {\c{C}}a{\u{g}}atay and Karci, Mehmet Melih and Uyar, A {\c{S}}ima},
+  booktitle={2011 International Symposium on Innovations in Intelligent Systems and Applications ({I}{N}{I}{S}{T}{A})},
+  pages={354--358},
+  year={2011},
+  organization={{I}{E}{E}{E}}
+}
+
+@article{damlen1999gibbs,
+  title={Gibbs sampling for Bayesian non-conjugate and hierarchical models by using auxiliary variables},
+  author={Damlen, P and Wakefield, John and Walker, Stephen},
+  journal={Journal of the Royal Statistical Society: Series B (Statistical Methodology)},
+  volume={61},
+  number={2},
+  pages={331--344},
+  year={1999},
+  publisher={Wiley Online Library}
+}
+
+@article{liu2017deep,
+  Author = {Liu, Wu and Ma, Huadong and Qi, Heng and Zhao, Dong and Chen, Zhineng},
+  ISSN = {16875176},
+  Journal = {EURASIP Journal on Image \& Video Processing},
+  Keywords = {DEEP learning (Machine learning), HASHING (Computer science), MOBILE apps, SMARTPHONES, BIT rate (Telecommunication), Deep learning hashing, Deep learning optimization, Mobile location recognition, Mobile visual search},
+  Number = {1},
+  Pages = {1 - 11},
+  Title = {Deep learning hashing for mobile visual search.},
+  Volume = {2017},
+  Year = {2017}
+}
+
+@phdthesis{farbood2001hyperscore,
+  title={Hyperscore: a new approach to interactive, computer-generated music},
+  author={Farbood, Morwaread Mary},
+  year={2001},
+  school={Massachusetts Institute of Technology}
+}
+
+@inproceedings{tokui2000music,
+  title={Music composition with interactive evolutionary computation},
+  author={Tokui, Nao and Iba, Hitoshi and others},
+  booktitle={Proceedings of the 3rd international conference on generative art},
+  volume={17},
+  number={2},
+  pages={215--226},
+  year={2000}
+}
+
+
+
+@inproceedings{legaspi2011exploring,
+  title={Exploring Melodic Motif to Support an Affect-Based Music Compositional Intelligence},
+  author={Legaspi, Roberto and Ueda, Akinobu and Cabredo, Rafael and Nishikawa, Takayuki and Fukui, Kenichi and Moriyama, Koichi and Kurihara, Satoshi and Numao, Masayuki},
+  booktitle={2011 Third International Conference on Knowledge and Systems Engineering ({K}{S}{E})},
+  pages={219--225},
+  year={2011},
+  organization={{I}{E}{E}{E}}
+}
+
+@inproceedings{hamadicharef2010brain,
+  title={Brain-Computer Interface (BCI) based musical composition},
+  author={Hamadicharef, Brahim and Xu, Mufeng and Aditya, Sheel},
+  booktitle={Cyberworlds (CW), 2010 International Conference on},
+  pages={282--286},
+  year={2010},
+  organization={{I}{E}{E}{E}}
+}
+
+@article{farbood2004hyperscore,
+  title={Hyperscore: a graphical sketchpad for novice composers},
+  author={Farbood, Morwaread M and Pasztor, Egon and Jennings, Kevin},
+  journal={{I}{E}{E}{E} Computer Graphics and Applications},
+  volume={24},
+  number={1},
+  pages={50--54},
+  year={2004},
+  publisher={{I}{E}{E}{E}}
+}
+
+@article{camurri1991harp,
+  title={HARP: a system for intelligent composer's assistance},
+  author={Camurri, Antonio and Canepa, Corrado and Frixione, Marcello and Zaccaria, Renato},
+  journal={Computer},
+  volume={24},
+  number={7},
+  pages={64--67},
+  year={1991},
+  publisher={{I}{E}{E}{E}}
+}
+
+@inproceedings{folstad2008effect,
+  title={The effect of group discussions in usability inspection: a pilot study},
+  author={F{\o}lstad, Asbj{\o}rn},
+  booktitle={Proceedings of the 5th Nordic conference on Human-computer interaction: building bridges},
+  pages={467--470},
+  year={2008},
+  organization={ACM}
+}
+
+@inproceedings{levitt1992representation,
+  title={A representation for musical dialects},
+  author={Levitt, David A},
+  booktitle={Machine models of music},
+  pages={455--469},
+  year={1992},
+  organization={MIT Press}
+}
+
+@article{fabbri1982theory,
+  title={A theory of musical genres: two applications},
+  author={Fabbri, Franco},
+  journal={Popular music perspectives},
+  volume={1},
+  pages={52--81},
+  year={1982},
+  publisher={Gothenburg e Exeter, IASPM}
+}
+
+@article{shneiderman1991touch,
+  title={Touch screens now offer compelling uses},
+  author={Shneiderman, Ben},
+  journal={{I}{E}{E}{E} software},
+  volume={8},
+  number={2},
+  pages={93--94},
+  year={1991},
+  publisher={{I}{E}{E}{E}}
+}
+
+@article{kitzinger1994methodology,
+  title={The methodology of focus groups: the importance of interaction between research participants},
+  author={Kitzinger, Jenny},
+  journal={Sociology of health \& illness},
+  volume={16},
+  number={1},
+  pages={103--121},
+  year={1994},
+  publisher={Wiley Online Library}
+}
+
+@article{wong2008focus,
+author = {Wong, Li Ping},
+year = {2008},
+month = {04},
+pages = {256-60; quiz 261},
+title = {Focus group discussion: A tool for health and medical research},
+volume = {49},
+booktitle = {Singapore medical journal}
+}
+
+@inproceedings{mantyjarvi2004enabling,
+  title={Enabling fast and effortless customisation in accelerometer based gesture interaction},
+  author={M{\"a}ntyj{\"a}rvi, Jani and Kela, Juha and Korpip{\"a}{\"a}, Panu and Kallio, Sanna},
+  booktitle={Proceedings of the 3rd international conference on Mobile and ubiquitous multimedia},
+  pages={25--31},
+  year={2004},
+  organization={{A}{C}{M}}
+}
+
+@inproceedings{kammer2010towards,
+  title={Towards a formalization of multi-touch gestures},
+  author={Kammer, Dietrich and Wojdziak, Jan and Keck, Mandy and Groh, Rainer and Taranko, Severin},
+  booktitle={{A}{C}{M} International Conference on Interactive Tabletops and Surfaces},
+  pages={49--58},
+  year={2010},
+  organization={{A}{C}{M}}
+}
+
+@inproceedings{westerman2001multi,
+  title={Multi-touch: A new tactile 2-d gesture interface for human-computer interaction},
+  author={Westerman, Wayne and Elias, John G and Hedge, Alan},
+  booktitle={Proceedings of the Human Factors and Ergonomics Society Annual Meeting},
+  volume={45},
+  number={6},
+  pages={632--636},
+  year={2001},
+  organization={SAGE Publications Sage CA: Los Angeles, CA}
+}
+
+@inproceedings{wang2009empirical,
+  title={Empirical evaluation for finger input properties in multi-touch interaction},
+  author={Wang, Feng and Ren, Xiangshi},
+  booktitle={Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
+  pages={1063--1072},
+  year={2009},
+  organization={{A}{C}{M}}
+}
+
+@inproceedings{findlater2012beyond,
+  title={Beyond {Q}{W}{E}{R}{T}{Y}: augmenting touch screen keyboards with multi-touch gestures for non-alphanumeric input},
+  author={Findlater, Leah and Lee, Ben and Wobbrock, Jacob},
+  booktitle={Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
+  pages={2679--2682},
+  year={2012},
+  organization={{A}{C}{M}}
+}
+
+@INPROCEEDINGS{chen2014agraph, 
+author={Z. Chen and E. Anquetil and H. Mouchère and C. Viard-Gaudin}, 
+booktitle={2014 14th International Conference on Frontiers in Handwriting Recognition}, 
+title={A Graph Modeling Strategy for Multi-touch Gesture Recognition}, 
+year={2014}, 
+pages={259-264}, 
+keywords={gesture recognition;human computer interaction;support vector machines;touch sensitive screens;SVM classifier;direct manipulation;gesture-based complex application;graph embedding approach;graph modeling strategy;multitouch gesture recognition;multitouch recognition system;operating system;sketch drawing application;touch based human computer interaction;Abstracts;Extremities;Gesture recognition;Handwriting recognition;Quantization (signal);Shape;Multi-touch;gesture recognition;graph embedding}, 
+doi={10.1109/ICFHR.2014.51}, 
+ISSN={2167-6445}, 
+month={Sept},}
+
+@book{rivadelo1986fundamentals,
+  title={Fundamentals of Music},
+  author={Rivadelo, Rosita F},
+  year={1986},
+  publisher={National Book Store}
+}
+
+@book{miller2005complete,
+  title={The complete idiot's guide to music theory},
+  author={Miller, Michael},
+  year={2005},
+  publisher={Penguin}
+}
+
+@article{allen1983maintaining,
+ author = {Allen, James F.},
+ title = {Maintaining Knowledge About Temporal Intervals},
+ journal = {Commun. ACM},
+ issue_date = {Nov. 1983},
+ volume = {26},
+ number = {11},
+ month = nov,
+ year = {1983},
+ issn = {0001-0782},
+ pages = {832--843},
+ numpages = {12},
+ url = {http://doi.acm.org/10.1145/182.358434},
+ doi = {10.1145/182.358434},
+ acmid = {358434},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {interval reasoning, interval representation, temporal interval},
+} 
+
+@inproceedings{nielsen2002getting,
+ author = {Nielsen, Janni and Clemmensen, Torkil and Yssing, Carsten},
+ title = {Getting Access to What Goes on in People's Heads?: Reflections on the Think-aloud Technique},
+ booktitle = {Proceedings of the Second Nordic Conference on Human-computer Interaction},
+ series = {NordiCHI '02},
+ year = {2002},
+ isbn = {1-58113-616-1},
+ location = {Aarhus, Denmark},
+ pages = {101--110},
+ numpages = {10},
+ url = {http://doi.acm.org/10.1145/572020.572033},
+ doi = {10.1145/572020.572033},
+ acmid = {572033},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {think aloud, usability, verbal report},
+} 
+
+@article{ericsson1998study,
+  title={How to study thinking in everyday life: Contrasting think-aloud protocols with descriptions and explanations of thinking},
+  author={Ericsson, K Anders and Simon, Herbert A},
+  journal={Mind, Culture, and Activity},
+  volume={5},
+  number={3},
+  pages={178--186},
+  year={1998},
+  publisher={Taylor \& Francis}
+}
+
+@inproceedings{yu2011probing,
+ author = {Yu, Benjamin and Voll, Kimberly},
+ title = {Probing Student Problem Solving Skills in Mathematical Induction Using a Scenario Based Think Aloud Protocol},
+ booktitle = {Proceedings of the 16th Western Canadian Conference on Computing Education},
+ series = {WCCCE '11},
+ year = {2011},
+ isbn = {978-1-4503-0792-5},
+ location = {Prince George, British Columbia, Canada},
+ pages = {33--37},
+ numpages = {5},
+ url = {http://doi.acm.org/10.1145/1989622.1989631},
+ doi = {10.1145/1989622.1989631},
+ acmid = {1989631},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {interviews, problem solving, protocol, think aloud, thinking},
+} 
+
+
+@inproceedings{gill2012think,
+ author = {Gill, Amy M. and Nonnecke, Blair},
+ title = {Think Aloud: Effects and Validity},
+ booktitle = {Proceedings of the 30th ACM International Conference on Design of Communication},
+ series = {SIGDOC '12},
+ year = {2012},
+ isbn = {978-1-4503-1497-8},
+ location = {Seattle, Washington, USA},
+ pages = {31--36},
+ numpages = {6},
+ url = {http://doi.acm.org/10.1145/2379057.2379065},
+ doi = {10.1145/2379057.2379065},
+ acmid = {2379065},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {methodology, think aloud, usability, validity},
+} 
+
+@inproceedings{mcdonald2013the,
+ author = {McDonald, Sharon and Petrie, Helen},
+ title = {The Effect of Global Instructions on Think-aloud Testing},
+ booktitle = {Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
+ series = {CHI '13},
+ year = {2013},
+ isbn = {978-1-4503-1899-0},
+ location = {Paris, France},
+ pages = {2941--2944},
+ numpages = {4},
+ url = {http://doi.acm.org/10.1145/2470654.2481407},
+ doi = {10.1145/2470654.2481407},
+ acmid = {2481407},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {reactivity, think-aloud instructions, think-aloud testing},
+} 
+
+
+@article{cheng2016approaching,
+  title={On approaching a performance of Paul Hindemith's Der Schwanendreher},
+  author={Cheng, Christine},
+  year={2016}
+}
+
+
+@techreport{read1969music,
+  title={Music Notation: A Manual of Modern Practice},
+  author={Read, Gardner},
+  edition = {2},
+  year={1969}
+}
+
+@INPROCEEDINGS{bellamy2011deploying, 
+author={R. Bellamy and B. John and S. Kogan}, 
+booktitle={2011 33rd International Conference on Software Engineering (ICSE)}, 
+title={Deploying CogTool: integrating quantitative usability assessment into real-world software development}, 
+year={2011}, 
+pages={691-700}, 
+month={May},}
+
+@misc{riso2016basic,
+	author={Cathy Riso},
+  title = {Basic Music Theory - 1st Post - Notes, Rests, and Note Particulars},
+  howpublished = {\url{http://cathyriso.blogspot.com/2016/08/basic-music-theory-1st-post.html}},
+  note = {Accessed: 2017-09-26},
+  year = {2016}
+}
+
+@misc{stamp2013the,
+	author={Jimmy Stamp},
+  title = {The Evolution of the Treble Clef},
+  howpublished = {\url{http://www.smithsonianmag.com/arts-culture/the-evolution-of-the-treble-clef-87122373/}},
+  note = {Accessed: 2017-09-26},
+  year = {2013}
+}
+
+
+@article{lee2012beyond, 
+author={B. Lee and P. Isenberg and N. H. Riche and S. Carpendale}, 
+journal={IEEE Transactions on Visualization and Computer Graphics}, 
+title={Beyond Mouse and Keyboard: Expanding Design Considerations for Information Visualization Interactions}, 
+year={2012}, 
+volume={18}, 
+number={12}, 
+month={Dec},}
+
+@misc{burrows1999reading,
+  title={How To Read Music in 10 Lessons},
+  author={Burrows, Terry},
+  year={1999},
+  publisher={Dubai: Carlton Books Limited}
+}
+
+@article{karat1986a,
+title = "A comparison of menu selection techniques: touch panel, mouse and keyboard",
+journal = "International Journal of Man-Machine Studies",
+volume = "25",
+number = "1",
+pages = "73 - 88",
+year = "1986",
+author = "John Karat and James E. McDonald and Matt Anderson"
+}
+
+
+
+@inproceedings{willoughby1971comprehensive,
+  title={Comprehensive Musicianship and Undergraduate Music Curricula.},
+  author={Willoughby, David},
+  year={1971},
+  organization={ERIC}
+}
+
+@misc{gleaves2015understanding,
+author={Tania Gleaves},
+  title = {Understanding The Circle of Fifths},
+  howpublished = {\url{http://www.piano-lessons-central.com/music-notation/circle-of-fifths/}},
+  note = {Accessed: 2017-09-26},
+  year = {2015}
+}
+
+@book{meyer1989style,
+  title={Style and music: Theory, history, and ideology},
+  author={Meyer, Leonard B},
+  year={1989},
+  publisher={University of Chicago Press}
+}
+
+@book{spencer1996music,
+  title={Music Theory for Non-Music Majors},
+  author={Spencer, Peter},
+  year={1996},
+  publisher={Florida State University}
+}
+
+@article{wesp2001gestures,
+ ISSN = {00029556},
+ URL = {http://0-www.jstor.org.lib1000.dlsu.edu.ph/stable/1423612},
+ abstract = {Recent theories suggest alternatives to the commonly held belief that the sole role of gestures is to communicate meaning directly to listeners. Evidence suggests that gestures may serve a cognitive function for speakers, possibly acting as lexical primes. We observed that participants gestured more often when describing a picture from memory than when the picture was present and that gestures were not influenced by manipulating eye contact of a listener. We argue that spatial imagery serves a short-term memory function during lexical search and that gestures may help maintain spatial images. When spatial imagery is not necessary, as in conditions of direct visual stimulation, reliance on gestures is reduced or eliminated.},
+ author = {Richard Wesp and Jennifer Hesse and Donna Keutmann and Karen Wheaton},
+ journal = {The American Journal of Psychology},
+ number = {4},
+ pages = {591-600},
+ publisher = {University of Illinois Press},
+ title = {Gestures Maintain Spatial Imagery},
+ volume = {114},
+ year = {2001}
+}
+
+@article{krauss1998why,
+ author = {Robert M. Krauss},
+ journal = {Current Directions in Psychological Science},
+ number = {2},
+ pages = {54-60},
+ publisher = {[Association for Psychological Science, Sage Publications, Inc.]},
+ title = {Why Do We Gesture When We Speak?},
+ volume = {7},
+ year = {1998}
+}
+
+@article{roth2001gestures,
+author = {Wolff-Michael Roth},
+title = {Gestures: Their Role in Teaching and Learning},
+journal = {Review of Educational Research},
+volume = {71},
+number = {3},
+pages = {365-392},
+year = {2001},
+doi = {10.3102/00346543071003365},
+}
+
+@book{mcneill2007hand, 
+place={Chicago}, 
+title={Hand and mind: what gestures reveal about thought}, 
+publisher={University of Chicago Press}, 
+author={McNeill, David}, 
+year={2007}
+}
+
+@misc{knoder2017sibelius,
+  title = {Sibelius First Review},
+  howpublished = {\url{http://www.toptenreviews.com/software/home/best-music-notation-software/sibelius-student-review/}},
+  author = {Jonathan Knoder},
+  note = {Accessed: 2017-10-06},
+  year = {2017}
+}
+
+@misc{knoder2017finale,
+  title = {Finale PrintMusic 2014 Review},
+  howpublished = {\url{http://www.toptenreviews.com/software/home/best-music-notation-software/print-music-review/}},
+  author = {Jonathan Knoder},
+  note = {Accessed: 2017-10-06},
+  year = {2017}
+}
+
+@misc{otter2017finale,
+  title = {Finale Notepad},
+  howpublished = {\url{https://www.techsupportalert.com/content/finale-notepad.htm-0}},
+  author = {Stafford Otter},
+  note = {Accessed: 2017-10-06},
+  year={2017}
+}
+
+@misc{hess2008sibeliusvsfinale,
+  title = {Sibelius vs. Finale: How To Choose?},
+  howpublished = {\url{http://www.filmmusicmag.com/?p=1820}},
+  author = {Ron Hess},
+  note = {Accessed: 2017-10-06},
+  year={2008}
+}
+
+@misc{spreadbury2012reflecting,
+  title = {Reflecting on the ribbon},
+  howpublished = {\url{https://www.scoringnotes.com/opinion/reflecting-on-the-ribbon/}},
+  author = {Daniel Spreadbury},
+  note = {Accessed: 2017-10-06},
+  year={2008}
+}
+
+@misc{dummy2017barlines,
+	author={{John Wiley \& Sons Inc.}},
+    year={2017},
+  title = {Musical Punctuation: Bar Lines and Measures},
+  howpublished = {\url{http://www.dummies.com/art-center/music/piano/musical-punctuation-bar-lines-and-measures/}},
+  note = {Accessed: 2017-10-07}
+}
+
+@misc{peter2016dynamic,
+	author={Frank Peter},
+  title = {How to Read Music: Dynamic Markings},
+  howpublished = {\url{https://piano-ology.org/2016/10/22/how-to-read-music-notation-dynamic-markings/}},
+  year={2016},
+  note = {Accessed: 2017-10-07}
+}
+
+@misc{dummy2016volume,
+author={{John Wiley \& Sons Inc.}},
+  title = {How to use Volume in Your Piano Playing},
+  howpublished = {\url{http://www.dummies.com/art-center/music/piano/how-to-use-volume-in-your-piano-playing/}},
+  note = {Accessed: 2017-10-07},
+  year={2016}
+}
+
+@misc{rose2014reading,
+  title = {Reading Music Lesson 34 Time Signature},
+  year={2014},
+  howpublished = {\url{http://www.musicreadingsavant.com/reading-music-lesson-34-time-signature/}},
+  author = {Teresa Rose},
+  note = {Accessed: 2017-10-18}
+}
+
+@misc{macdonald2017komp,
+  title = {Komp is a beautiful and ambitious new scoring app for iPad},
+  howpublished = {\url{https://www.scoringnotes.com/reviews/komp-beautiful-ambitious-new-scoring-app-ipad/}},
+  author = {David MacDonald},
+  year={2017},
+  note = {Accessed: 2017-10-10}
+}
+
+@article{collins2005synthesis,
+  title={A synthesis process model of creative thinking in music composition},
+  author={Collins, David},
+  journal={Psychology of music},
+  volume={33},
+  number={2},
+  pages={193--216},
+  year={2005},
+  publisher={Sage Publications Sage CA: Thousand Oaks, CA}
+}
+
+@article{collins2007real,
+  title={Real-time tracking of the creative music composition process},
+  author={Collins, David},
+  journal={Digital Creativity},
+  volume={18},
+  number={4},
+  pages={239--256},
+  year={2007},
+  publisher={Taylor \& Francis}
+}
+
+@article{Holm:2012,
+  title={Visualizing Music Collections Based on Metadata: Concepts},
+  author={Holm, J},
+  journal={User Studies and Design Implications, Tampere University of Technology},
+  year={2012},
+  url={http://urn.fi/URN:ISBN:978-952-15-2908-5},
+}
+
+@mastersthesis{Tzanetakis:2018,
+    title={Visualyzic: A live-input visualizer},
+    author={Tzanetakis, George},
+    school    = "Guru Gobind Singh Indraprastha University",
+    year      = "2018",
+    url={https://dspace.library.uvic.ca/bitstream/handle/1828/9247/Garg_Disha_MSc_2018.pdf?sequence=1&isAllowed=y},
+}
+
+@article{Fonteles:2013,
+ author = {Fonteles, Joyce Horn and Rodrigues, Maria Andr{\'e}ia Formico and Basso, Victor Emanuel Dias},
+ title = {Creating and Evaluating a Particle System for Music Visualization},
+ journal = {J. Vis. Lang. Comput.},
+ issue_date = {December, 2013},
+ volume = {24},
+ number = {6},
+ month = dec,
+ year = {2013},
+ issn = {1045-926X},
+ pages = {472--482},
+ numpages = {11},
+ doi = {10.1016/j.jvlc.2013.10.002},
+ acmid = {2565260},
+ publisher = {Academic Press, Inc.},
+ address = {Orlando, FL, USA},
+ keywords = {Animation, Evaluation, Music, Particle system, Visualization},
+}
+
+@article{Balandra:2016,
+  title={Haptic music player--synthetic audio-tactile stimuli generation based on the notes’ pitch and instruments’ envelope mapping},
+  author={Balandra, Alfonso and Mitake, Hironori and Hasegawa, Shoichi},
+  journal={Proceedings of NIME 2016},
+  pages={90--95},
+  year={2016},
+}
+
+@article{Langer:2010,
+  title={Music information retrieval \& visualization},
+  author={Langer, Tim},
+  journal={Trends in Information Visualization},
+  pages={15--22},
+  year={2010},
+}
+
+@article{Bonnardel:2011,
+  title={The impact of colour on Website appeal and users’ cognitive processes},
+  author={Nathalie Bonnardel and Annie Piolat and Ludovic {Le Bigot}},
+  journal={Displays},
+  pages={69--80},
+  year={2011},
+}
+
+@article {Ribiero:2017,
+    author = "Tatiane {Ribiero Morais de Paula} and Patricia {Lima Martins Pederiva}",
+    title = "Musical Experience in Deaf Culture",
+    journal = "International Journal of Technology and Inclusive Education",
+    volume = "6",
+    number = "2",
+    pages = "1098--1107",
+    year = "2017"
+}
+
+@article{Pathak:2014,
+    author    = "Darshita S. Pathak",
+    title     = "Analysis of Music Based On Multimodal Structure
+                 Segmentation of Audio and Lyrics Information",
+    journal   = "Journal of Emerging Technologies and Innovative Research",
+    volume   = "1",
+    number   = "5",
+    pages    = "274--277",
+    year      = "2014",
+}
+
+@article{Walker:2013,
+    author    = "Rob Walker",
+    title     = "Child mental health and deafness",
+    journal   = "Paediatrics and Child Health",
+    volume   = "23",
+    number   = "10",
+    pages    = "438--442",
+    year      = "2013",
+}
+
+@article{Yitao:2013,
+    author    = "Mao Yitao and Xu Li",
+    title     = "Music and Cochlear Implants",
+    journal   = "Journal of Otology",
+    volume   = "8",
+    number   = "1",
+    pages    = "32--38",
+    year      = "2013",
+}
+
+@article{Moran:2016,
+    author    = "Michelle Moran and Alexandra Rousset and Valerie Looi",
+    title     = "Music appreciation and music listening in
+                 prelingual and postlingually deaf adult cochlear
+                 implant recipients",
+    journal   = "International Journal of Audiology",
+    volume   = "55",
+    pages    = "57--63",
+    year      = "2016",
+}
+
+@article{Gfeller:2012,
+    author    = "Kate Gfeller and Virginia Driscoll and Rachel See Smith and Christina Scheperle",
+    title     = "The Music Experiences and Attitudes of a First Cohort of Prelingually Deaf Adolescent and Young Adult              Cochlear Implant Recipients",
+    journal   = "Seminars in Hearing",
+    volume   = "33",
+    number = "4",
+    pages    = "346--360",
+    year      = "2012",
+}
+
+@article{Kim:2012,
+author = "Eunoak Kim and Hyo-Jeong Lee and Hyung-Jong Kim",
+year = "2012",
+pages = "S53-8",
+title = "Music Perception Ability of Korean Adult Cochlear Implant Listeners",
+volume = "5",
+booktitle = "Clinical and experimental otorhinolaryngology"
+}
+
+@article{Bavelier:2006,
+    author    = "Daphne Bavelier and Matthew W.G. Dye and Peter C. Hauser",
+    title     = "Do Deaf Individuals See Better?",
+    journal   = "Trends in Cognitive Sciences",
+    volume   = "10",
+    number = "11",
+    pages    = "512--518",
+    year      = "2006",
+}
+
+@conference{Ng'ethe:2015,
+    author    = "George G. Ng'ethe and Edwin H. Blake and Meryl Glaser",
+    title     = "SignSupport: A mobile aid for deaf people learning computer literacy skills",
+    booktitle = "Proceedings of the 7th International Conference on Computer Supported Education {(CSEDU-2015)}",
+    year      = "2015"    
+}
+
+@conference{Petry:2018,
+    author    = "Benjamin Petry and Thavishi Illandara and Don Samantha Elvitigala and Suranga Nanayakkara",
+    title     = "Supporting rhythm activities of deaf children using music-sensory-substitution systems",
+    booktitle = "{CHI} 2018",
+    number   = "486",
+    pages    = "1--10",
+    address  = "Montreal, QC, Canada",
+    year      = "2018",
+    month    = "April",
+}
+
+@conference{Holm:2009,
+    author    = "Jukka Holm and Antti Aaltonen and Jarno {Sepp\"{a}nen}",
+    title     = "Associating fonts with musical genres",
+    booktitle = "Proceedings of the 6th International Conference on Computer Graphics, Virtual Reality, Visualisation and Interaction in Africa - AFRIGRAPH 09",
+    pages    = "33--36",
+    address  = "Pretoria, South Africa",
+    year      = "2009",
+    month    = "February",
+}
+
+@conference{Husain:2014,
+    author    = "Adzira Husain and Mohd Fairuz Shiratuddin and Kok Wai Wong",
+    title     = "Combining visual elements as a new method to
+                 browse and discover music mood",
+    booktitle = "The 2nd international virtual Scientific Conference",
+    pages    = "488--492",
+    year      = "2014",
+    month    = "June",
+}
+
+@conference{Matthews:2005,
+    author    = "Tara Matthews and Janette Fong and Jennifer Mankoff",
+    title     = "Visualizing Non-Speech Sounds for the Deaf",
+    booktitle = "Proceedings of the 7th International {ACM SIGACCESS} Conference on Computers and Accessibility - ASSETS'05",
+    pages    = "52--59",
+    address  = "Baltimore, Maryland, USA",
+    year      = "2005",
+    month    = "October",
+}
+
+@conference{Toiviainen:2006,
+    author    = "Petri Toiviainen and Tuomas Eerola",
+    title     = "Visualization in Comparative Music Research",
+    booktitle = "COMPSTAT 2006 - Proceedings in Computational Statistics",
+    pages    = "209--221",
+    address  = "Heidelberg",
+    year      = "2006",
+}
+
+@inproceedings{Nanayakkara:2009:EME,
+ author = {Nanayakkara, Suranga and Taylor, Elizabeth and Wyse, Lonce and Ong, S H.},
+ title = {An Enhanced Musical Experience for the Deaf: Design and Evaluation of a Music Display and a Haptic Chair},
+ booktitle = {Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
+ series = {CHI '09},
+ year = {2009},
+ isbn = {978-1-60558-246-7},
+ location = {Boston, MA, USA},
+ pages = {337--346},
+ numpages = {10},
+ doi = {10.1145/1518701.1518756},
+ acmid = {1518756},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {assistive technology, deaf, haptic, music visualisation},
+} 
+
+@inproceedings{Jack:2015,
+  title={Designing tactile musical devices with and for deaf users: a case study},
+  author={Jack, ROBERT and McPherson, ANDREW and Stockman, TONY},
+  booktitle={Proceedings of the International Conference on the Multimodal Experience of Music},
+  pages={23--25},
+  year={2015},
+}
+
+@inproceedings{Jain:2015,
+ author = {Jain, Dhruv and Findlater, Leah and Gilkeson, Jamie and Holland, Benjamin and Duraiswami, Ramani and Zotkin, Dmitry and Vogler, Christian and Froehlich, Jon E.},
+ title = {Head-Mounted Display Visualizations to Support Sound Awareness for the Deaf and Hard of Hearing},
+ booktitle = {Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems},
+ series = {CHI '15},
+ year = {2015},
+ isbn = {978-1-4503-3145-6},
+ location = {Seoul, Republic of Korea},
+ pages = {241--250},
+ numpages = {10},
+ doi = {10.1145/2702123.2702393},
+ acmid = {2702393},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {accessibility, conversation support, deaf, hard of hearing, head-mounted display, sound visualization, wearable},
+} 
+
+@inproceedings{Petry:2016,
+ author = {Petry, Benjamin and Illandara, Thavishi and Nanayakkara, Suranga},
+ title = {MuSS-bits: Sensor-display Blocks for Deaf People to Explore Musical Sounds},
+ booktitle = {Proceedings of the 28th Australian Conference on Computer-Human Interaction},
+ series = {OzCHI '16},
+ year = {2016},
+ isbn = {978-1-4503-4618-4},
+ location = {Launceston, Tasmania, Australia},
+ pages = {72--80},
+ numpages = {9},
+ doi = {10.1145/3010915.3010939},
+ acmid = {3010939},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {assistive technologies, deaf, learning, music, sensory substitution},
+} 
+
+@mastersthesis{Nanayakkara:2007,
+    author    = "Suranga Chandima Nanayakkara and Elizabeth Taylor and Lonce Wyse and S.H. Ong",
+    title     = "Towards Building an Experiential Music Visualizer",
+    school    = "National University of Singapore",
+    address  = "14 Kent Ridge Road, Singapore 119223",
+    year      = "2007",
+}
+
+@mastersthesis{Pramerdorfer:2010,
+    author    = "Christopher Pramerdorfer",
+    title     = "An Introduction to Processing and Music Visualization",
+    school    = "Vienna University of Technology",
+    address  = "Karlsplatz 13, 1040 Wien, Austria",
+    year      = "2010",
+}
+
+
+@inproceedings{Aristizabal:2017,
+ author = {Aristiz\'{a}bal, Leandro Fl\'{o}rez and Cano, Sandra and Collazos, C{\'e}sar A. and Moreira, Fernando and Alghazzawi, Daniyal M. and Fardoun, Habib},
+ title = {Tools and Methods Applied in Interactive Systems to Evaluate the User Experience With Deaf/Hard of Hearing Children},
+ booktitle = {Proceedings of the 5th International Conference on Technological Ecosystems for Enhancing Multiculturality},
+ series = {TEEM 2017},
+ year = {2017},
+ isbn = {978-1-4503-5386-1},
+ location = {C\ádiz, Spain},
+ pages = {18:1--18:8},
+ articleno = {18},
+ numpages = {8},
+ doi = {10.1145/3144826.3145365},
+ acmid = {3145365},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {Children, Deaf, Hard of Hearing, Interactive Systems, User Experience},
+} 
+
+@article{Battarbee:2005,
+author = { Katja Battarbee and Ilpo Koskinen},
+title = {Co-experience: user experience as interaction},
+journal = {CoDesign},
+volume = {1},
+number = {1},
+pages = {5-18},
+year  = {2005},
+publisher = {Taylor & Francis},
+doi = {10.1080/15710880412331289917}
+}
+
+@inproceedings{Cavender:2009,
+ author = {Cavender, Anna C. and Bigham, Jeffrey P. and Ladner, Richard E.},
+ title = {ClassInFocus: Enabling Improved Visual Attention Strategies for Deaf and Hard of Hearing Students},
+ booktitle = {Proceedings of the 11th International ACM SIGACCESS Conference on Computers and Accessibility},
+ series = {Assets '09},
+ year = {2009},
+ isbn = {978-1-60558-558-1},
+ location = {Pittsburgh, Pennsylvania, USA},
+ pages = {67--74},
+ numpages = {8},
+ doi = {10.1145/1639642.1639656},
+ acmid = {1639656},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {classroom technology, deaf and hard of hearing users, multimedia conferencing technology}
+} 
+
+@article{Drennan:2015,
+author = {Ward. R. Drennan and Jacob J. Oleson and Kate Gfeller and Jillian Crosson and Virginia D. Driscoll and Jong Ho Won and Elizabeth S. Anderson and Jay T. Rubinstein},
+title = {Clinical evaluation of music perception, appraisal and experience in cochlear implant users},
+journal = {International Journal of Audiology},
+volume = {54},
+number = {2},
+pages = {114-123},
+year  = {2015},
+publisher = {Taylor & Francis},
+}
+
+@article{Darrow:1993,
+author = {Alice-Ann Darrow},
+title = {The Role of Music in Deaf Culture: Implications for Music Educators},
+journal = {Journal of Research in Music Education},
+volume = {41},
+number = {2},
+pages = {93-110},
+year  = {1993},
+}
+
+@article{Florian:2017,
+title = "Deaf people feeling music rhythm by using a sensing and actuating device",
+journal = "Sensors and Actuators A: Physical",
+volume = "267",
+pages = "431 - 442",
+year = "2017",
+issn = "0924-4247",
+doi = "https://doi.org/10.1016/j.sna.2017.10.034",
+author = "Horațiu Florian and Adrian Mocanu and Cristian Vlasin and José Machado and Vítor Carvalho and Filomena Soares and Adina Astilean and Camelia Avram",
+keywords = "Sensing and actuating device, Music rhythm, Wellbeing, Quality of life, Mechatronic systems design"
+}
+
+@article{Jones:2016,
+title = "Narrative skills in deaf children who use spoken English: Dissociations between macro and microstructural devices",
+journal = "Research in Developmental Disabilities",
+volume = "59",
+pages = "268 - 282",
+year = "2016",
+issn = "0891-4222",
+doi = "https://doi.org/10.1016/j.ridd.2016.09.010",
+author = "-->A.C. Jones and E. Toscano and N. Botting and C.-->R. Marshall and J.R. Atkinson and T. Denmark and -->R. Herman and G. Morgan",
+keywords = "Deaf children, Oral language, Narrative macrostructure, Narrative microstructure, Inference-making"
+}
+
+@inproceedings{Miller:2017,
+ author = {Miller, Ashley and Malasig, Joan and Castro, Brenda and Hanson, Vicki L. and Nicolau, Hugo and Brand\~{a}o, Alessandra},
+ title = {The Use of Smart Glasses for Lecture Comprehension by Deaf and Hard of Hearing Students},
+ booktitle = {Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems},
+ series = {CHI EA '17},
+ year = {2017},
+ isbn = {978-1-4503-4656-6},
+ location = {Denver, Colorado, USA},
+ pages = {1909--1915},
+ numpages = {7},
+ doi = {10.1145/3027063.3053117},
+ acmid = {3053117},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {American sign language (ASL), accessibility, deaf, education, multimedia},
+} 
+
+
+@article{Nelson:2016,
+author = {Lauri H. Nelson and Whitney Wright and Elizabeth W. Parker},
+title ={Embedding Music Into Language and Literacy Instruction for Young Children Who Are Deaf or Hard of Hearing},
+journal = {Young Exceptional Children},
+volume = {19},
+number = {1},
+pages = {27-38},
+year = {2016},
+doi = {10.1177/1096250614566539},
+
+}
+
+@article{Abdi:2001,
+    author    = "S. Abdi and M.H. Khalessi and M. Khorsandi and B. Gholami",
+    title     = "Introducing music as a means of habilitation for children with cochlear implants",
+    journal   = "International Journal of Pedriatic Otorhinolaryngology",
+    volume   = "59",
+    pages    = "105--113",
+    year      = "2001",
+}
+
+@article{Rocca:2012,
+    author    = "C. Rocca",
+    title     = "A different musical perspective: Improving outcomes in music
+through habilitation, education, and training for children with cochlear
+implants",
+    journal   = "Seminars in Hearing",
+    volume   = "33",
+    pages    = "425--433",
+    year      = "2012",
+}
+
+@article{Schindler:2016,
+ author = {Schindler, Alexander and Rauber, Andreas},
+ title = {Harnessing Music-Related Visual Stereotypes for Music Information Retrieval},
+ journal = {ACM Trans. Intell. Syst. Technol.},
+ issue_date = {January 2017},
+ volume = {8},
+ number = {2},
+ month = oct,
+ year = {2016},
+ issn = {2157-6904},
+ pages = {20:1--20:21},
+ articleno = {20},
+ numpages = {21},
+ doi = {10.1145/2926719},
+ acmid = {2926719},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {Music videos, video analysis, visual concept detection},
+} 
+
+@inproceedings{Soderberg:2016,
+  title={Music Aid-Towards a Collaborative Experience for Deaf and Hearing People in Creating Music},
+  author={S{\o}derberg, Ene Alicia and Odgaard, Rasmus Emil and Bitsch, Sarah and H{\o}eg-Jensen, Oliver and Schildt, Nikolaj and Christensen, S{\o}ren Dahl Poulsen and Gelineck, Steven},
+  booktitle={New Interfaces for Musical ExpressionNew Interfaces for Musical Expression},
+  year={2016}
+}
+
+@inproceedings{Wu:2010,
+  title={Audio-based music visualization for music structure analysis},
+  author={Wu, Ho-Hsiang and Bello, Juan P},
+  booktitle={Proceedings of Sound and Music Computing Conference {(SMC)} },
+  pages={1--6},
+  year={2010}
+}
+
+@misc{Glaser:2004,
+    title={Telecommunications bridging between Deaf and hearing users in South Africa},
+    author={Glaser, Meryl and Tucker, William David},
+    year={2004},
+}
+
+@inproceedings{Schedl:2016,
+    author = {Schedl, Markus and Melenhorst, Mark and Liem, Cynthia C. S. and Martorell, Agust\'{\i}n and Mayor, \'{O}scar and Tkal\v{c}i\v{c}, Marko},
+    title = {A Personality-based Adaptive System for Visualizing Classical Music Performances},
+    booktitle = {Proceedings of the 7th International Conference on Multimedia Systems},
+    series = {MMSys '16},
+    year = {2016},
+    isbn = {978-1-4503-4297-1},
+    location = {Klagenfurt, Austria},
+    pages = {151--157},
+    articleno = {15},
+    numpages = {7},
+    doi = {10.1145/2910017.2910604},
+    acmid = {2910604},
+    publisher = {ACM},
+    address = {New York, NY, USA},
+    keywords = {music visualization, personality, recommender systems},
+}
+
+@inproceedings{Yazdani:2011,
+    author = {Yazdani, Ashkan and Kappeler, Krista and Ebrahimi, Touradj},
+    title = {Affective Content Analysis of Music Video Clips},
+    booktitle = {Proceedings of the 1st International ACM Workshop on Music Information Retrieval with User-centered and Multimodal Strategies},
+    series = {MIRUM '11},
+    year = {2011},
+    isbn = {978-1-4503-0986-8},
+    location = {Scottsdale, Arizona, USA},
+    pages = {7--12},
+    numpages = {6},
+    url = {http://doi.acm.org/10.1145/2072529.2072532},
+    doi = {10.1145/2072529.2072532},
+    acmid = {2072532},
+    publisher = {ACM},
+    address = {New York, NY, USA},
+    keywords = {affect, emotion, multimedia content analysis},
+}
+
+@inproceedings{Bartram:2017,
+    author = {Bartram, Lyn and Patra, Abhisekh and Stone, Maureen},
+    title = {Affective Color in Visualization},
+    booktitle = {Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems},
+    series = {CHI '17},
+    year = {2017},
+    isbn = {978-1-4503-4655-9},
+    location = {Denver, Colorado, USA},
+    pages = {1364--1374},
+    numpages = {11},
+    url = {http://doi.acm.org/10.1145/3025453.3026041},
+    doi = {10.1145/3025453.3026041},
+    acmid = {3026041},
+    publisher = {ACM},
+    address = {New York, NY, USA},
+    keywords = {affective visualization, color perception, design},
+}
+
+@inproceedings{Sra:2017,
+    author = {Sra, Misha and Maes, Pattie and Vijayaraghavan, Prashanth and Roy, Deb},
+    title = {Auris: Creating Affective Virtual Spaces from Music},
+    booktitle = {Proceedings of the 23rd ACM Symposium on Virtual Reality Software and Technology},
+    series = {VRST '17},
+    year = {2017},
+    isbn = {978-1-4503-5548-3},
+    location = {Gothenburg, Sweden},
+    pages = {26:1--26:11},
+    articleno = {26},
+    numpages = {11},
+    url = {http://doi.acm.org/10.1145/3139131.3139139},
+    doi = {10.1145/3139131.3139139},
+    acmid = {3139139},
+    publisher = {ACM},
+    address = {New York, NY, USA},
+    keywords = {deep neural networks, generative models, music, virtual reality},
+}
+
+@inproceedings{Harrison:2013,
+    author = {Harrison, Lane and Skau, Drew and Franconeri, Steven and Lu, Aidong and Chang, Remco},
+    title = {Influencing Visual Judgment Through Affective Priming},
+    booktitle = {Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
+    series = {CHI '13},
+    year = {2013},
+    isbn = {978-1-4503-1899-0},
+    location = {Paris, France},
+    pages = {2949--2958},
+    numpages = {10},
+    url = {http://doi.acm.org/10.1145/2470654.2481410},
+    doi = {10.1145/2470654.2481410},
+    acmid = {2481410},
+    publisher = {ACM},
+    address = {New York, NY, USA},
+    keywords = {affect, charts, emotion, visualization},
+}
+
+@inproceedings{Chen:2008,
+    author = {Chen, Chin-Han and Weng, Ming-Fang and Jeng, Shyh-Kang and Chuang, Yung-Yu},
+    title = {Emotion-based Music Visualization Using Photos},
+    booktitle = {Proceedings of the 14th International Conference on Advances in Multimedia Modeling},
+    series = {MMM'08},
+    year = {2008},
+    isbn = {3-540-77407-6, 978-3-540-77407-5},
+    location = {Kyoto, Japan},
+    pages = {358--368},
+    numpages = {11},
+    url = {http://dl.acm.org/citation.cfm?id=1785794.1785833},
+    acmid = {1785833},
+    publisher = {Springer-Verlag},
+    address = {Berlin, Heidelberg},
+    keywords = {emotion detection, music visualization},
+}
+
+@article{Roy:2014,
+    title = "Technological, biological, and acoustical constraints to     music perception in cochlear implant users",
+    journal = "Hearing Research",
+    volume = "308",
+    pages = "13 - 26",
+    year = "2014",
+    note = "Music: A window into the hearing brain",
+    issn = "0378-5955",
+    doi = "https://doi.org/10.1016/j.heares.2013.04.009",
+    author = "Charles J. Limb and Alexis T. Roy"
+}
+
+@article{Smith:1997,
+  title={The scientist and engineer's guide to digital signal processing},
+  author={Smith, Steven W and others},
+  year={1997},
+  publisher={California Technical Pub. San Diego}
+}
+
+@book{
+    VandenBos:2015,
+    place={Washington, DC},
+    edition={2},
+    title={APA Dictionary of Psychology},
+    publisher={American Psychological Association}, author={VandenBos, Gary R.},
+    year={2015}
+}
+
+@article{Russel:1980,
+  added-at = {2011-01-16T19:33:23.000+0100},
+  author = {Russell, J.A.},
+  biburl = {https://www.bibsonomy.org/bibtex/2c97db07a181569963f5a1018da6ab3e0/mediadigits},
+  interhash = {4486f136c3231d6619ab9087ea1bc9dd},
+  intrahash = {c97db07a181569963f5a1018da6ab3e0},
+  issn = {0022-3514},
+  journal = {Journal of personality and social psychology},
+  keywords = {affect model music psychology},
+  number = 6,
+  pages = {1161--1178},
+  timestamp = {2011-01-16T19:33:23.000+0100},
+  title = {{A circumplex model of affect}},
+  volume = 39,
+  year = 1980
+}
+
+@incollection{Muller:2015,
+  title={Music Representations},
+  author={M{\"u}ller, Meinard},
+  booktitle={Fundamentals of Music Processing},
+  pages={1--37},
+  year={2015},
+  publisher={Springer}
+}
+
+@misc{revolvy, 
+    title={"Music visualization" folders on Revolvy.com}, url={https://www.revolvy.com/page/Music-visualization},
+    journal={Revolvy},
+    year={2017},
+    author={Revolvy, LLC}
+}
+
+@misc{smileyFig:2013,
+    author = {Sim, Gavin and Horton, Matthew},
+    year = {2013},
+    title = {Smiley Rating Scale},
+    url = {https://www.researchgate.net/figure/Smileyometer-rating-scale_fig1_241623579}
+    }
+    
+@misc{signSupportFig:2014,
+    author = {George G. Ng'ethe and Edwin H. Blake and Meryl Glaser},
+    year = {2014},
+    title = {SignSupport},
+    url = {https://www.signsupport.org/wordpress/domains/signsupport.org/DEFAULT/wordpress/wp-content/uploads/2016/10/ICDL-156x300.png}
+}
+    
+@misc{edwards:2016,
+    title={The Atari Video Music is a trippy, psychedelic rarity from the 1970s},
+    url={https://www.pcworld.com/article/3026252/consumer-electronics/this-old-tech-atari-video-music-is-a-trippy-psychedelic-rarity-from-the-mid-1970s.html},
+    journal={PCWorld},
+    publisher={PCWorld},
+    author={Edwards, Benj},
+    year={2016},
+    month={Jan}
+}
+    
+@misc{revolvy:psychedelia,
+    title={"Psychedelia (light synthesizer)" on Revolvy.com},
+    url={https://www.revolvy.com/page/Psychedelia-(light-synthesizer)},
+    journal={Revolvy},
+    year={2017},
+    author={Revolvy, LLC}
+}
+    
+@misc{tomleecee:2014,
+    title={Atari Jaguar CD Virtual Light Machine (VLM) Demonstration},
+    url={https://www.youtube.com/watch?v=T0aGJLte13A},
+    journal={YouTube},
+    publisher={YouTube},
+    author={Tomleecee},
+    year={2014},
+    month={Apr}
+}
+    
+@misc{pulseradio:pianoroll,
+    title={Obsolete instruments: The Piano roll (1883 – 2008)},
+    url={https://pulseradio.mk/obsolete-instruments-the-piano-roll-1883-2008/},
+    journal={Pulse Radio},
+    author={Youth Council Prilep}
+}
+
+
+@misc{usability.gov_2013, 
+title={Visual Design Basics},
+    url={https://www.usability.gov/what-and-why/visual-design.html},
+    journal={Usability.gov},
+    publisher={Department of Health and Human Services},
+    year={2013},
+    month={Oct}
+}
+
+@misc{vcaa,
+    title={The VCAA provides high quality curriculum, assessment and reporting to enable learning for life.},
+    url={https://www.vcaa.vic.edu.au/Pages/vce/adviceforteachers/visualcomm/designelementsprinciples.aspx},
+    author={VCAA},
+    journal={Victorian Curriculum and Assessment Authority},
+    year={2018}
+}
+
+@book{Klapuri:2011,
+    place={New York},
+    title={Signal Processing Methods for Music Transcription},
+    publisher={Springer},
+    author={Klapuri, Anssi and Davy, Manuel},
+    year={2011}
+}
+
+@inproceedings{wang2014principles,
+  title={Principles of visual design for computer music},
+  author={Wang, Ge},
+  booktitle={ICMC},
+  year={2014}
+}
+
+@misc{MTU:1998,
+    title={Physics of Music Notes},
+    url={https://pages.mtu.edu/~suits/NoteFreqCalcs.html},
+    journal={Formula for frequency table},
+    publisher={Michigan Technological University},
+    year={1998}
+}
+
+@misc{TFD:2008,
+    title={Musical Scale},
+    url={https://www.thefreedictionary.com/musical scale},
+    journal={The Free Dictionary},
+    publisher={Farlex},
+    year={2008}
+}
+
+@book{brown2012cinematography,
+  title={Cinematography: Theory and Practice: Image Making for Cinematographers and Directors},
+  author={Brown, Blain},
+  year={2012},
+  publisher={Elsevier Inc.}
+}
+
+@article{scienceofart,
+  title={The science of art: A neurological theory of aesthetic experience},
+  author={Ramachandran, Vilayanur S and Hirstein, William},
+  journal={Journal of consciousness Studies},
+  volume={6},
+  number={6-7},
+  pages={15--51},
+  year={1999},
+  publisher={Imprint Academic}
+}
+
+@article{May:2003,
+  title={Using Film Cutting Techniques in Interface Design},
+  author={May, Jon and Dean, Michael},
+  journal={Human Computer Interaction},
+  volume={18},
+  pages={325--372},
+  year={2003}
+}
+
+@book{Wolf:2013,
+  title={Scene design and stage lighting},
+  author={Wolf, R Craig and Block, Dick},
+  year={2013},
+  publisher={Cengage Learning}
+}
+
+@misc{camera:2012,  
+url={http://thecinematheque.ca/education/wp-content/uploads/2012/ 02/LanguageofFilm06.pdf},
+    author={Pacific Cinematheque},
+    year={2012}
+}
+
+@InProceedings{deja2019myosl,
+author="Deja, Jordan Aiko
+and Arceo, Patrick
+and David, Darren Goldwin
+and Gan, Patrick Lawrence
+and Roque, Ryan Christopher",
+editor="Antona, Margherita
+and Stephanidis, Constantine",
+title="MyoSL: A Framework for Measuring Usability of Two-Arm Gestural Electromyography for Sign Language",
+booktitle="Universal Access in Human-Computer Interaction. Methods, Technologies, and Users",
+year="2018",
+publisher="Springer International Publishing",
+address="Cham",
+pages="146--159",
+abstract="Several Sign Language (SL) systems have been developed using various technologies: Kinect, armbands, and gloves. Majority of these studies never considered user experience as part of their approach. With that, we propose a new framework that eases usability by employing two-arm gestural electromyography instead of typical vision-based systems see Fig. 5. Interactions can be considered seamless and natural with this way. In this preliminary study, we conducted focus group discussions and usability tests with signers. Based on the results of the usability tests, 90{\%} of respondents found the armband comfortable. The respondents also stated that the armband was not intrusive when they tried to perform their sign gestures. At the same time, they found it aesthetically pleasing. Additionally, we produced an initial prototype from this experiment setup and tested them on several conversational scenarios. By using this approach, we enable an agile framework that caters the needs of the signer-user.",
+isbn="978-3-319-92049-8"
+}
